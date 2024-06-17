@@ -1,0 +1,124 @@
+
+manufacturer: IBM
+computer: Harvard Mark I
+year: 1944
+cpu_flops: 3
+cpu_power: 3.7kW
+# could store 72 numbers, each 23 decimal digits long.  72*23*log2(10)/8
+ram: 687
+size: 16x2.4x0.61m
+mass: 4284kg
+url: https://en.wikipedia.org/wiki/Harvard_Mark_I
+
+manufacturer: Harvard
+computer: Harvard Mark II
+year: 1947
+mass: 23000kg
+cpu_flops: 8
+cpu_cores: 2
+# 200-1000 words of 40-bits apiece
+ram: 1000
+ram_max: 5000
+url: https://museum.ipsj.or.jp/en/computer/dawn/0009.html
+url: https://en.wikipedia.org/wiki/Harvard_Mark_II
+
+manufacturer: Harvard
+computer: Harvard Mark III
+year: 1950
+mass: 10000kg
+cpu_flops: 250
+ram: 19000
+#80,000 microseconds. This was partially compensated for by the fact that twenty words could be transferred on each access.
+ram_speed: 9500bps
+url: https://en.wikipedia.org/wiki/Harvard_Mark_III
+
+manufacturer: US Army
+computer: ENIAC
+year: 1945
+cpu_flops: 500
+
+manufacturer: University of Manchester
+computer: Manchester Baby
+year: 1948
+ram: 128
+cpu_ops: 1100
+url: https://en.wikipedia.org/wiki/Manchester_Baby
+
+manufacturer: US National Bureau of Standards
+computer: SWAC
+year: 1950
+cpu_flops: 15625
+ram: 1184
+url: https://en.wikipedia.org/wiki/SWAC_(computer)
+
+manufacturer: Ferranti Ltd
+computer: Ferranti Mark 1
+year: 1951
+ram: 1280
+storage: 81920
+url: https://en.wikipedia.org/wiki/Ferranti_Mark_1
+
+manufacturer: Remington Rand
+computer: UNIVAC
+size: 4.3x2.4x2.6m
+mass: 7600kg
+price: US1951$159000
+units: 46
+url: https://en.wikipedia.org/wiki/UNIVAC_I
+
+manufacturer: IBM
+computer: IBM 650
+year: 1954
+ram: 9kB
+ram_max: 35kB
+cpu_ops: 40
+eol: 1969
+mass: 2500kg
+price: US1959$150000
+url: https://en.wikipedia.org/wiki/IBM_650
+
+manufacturer: IBM
+computer: IBM 1401
+year: 1959
+eol: 1971
+ram: 1050
+ram_max: 12000
+cpu_bits: 6
+units: 12000
+url: https://en.wikipedia.org/wiki/IBM_1401
+
+manufacturer: IBM
+computer: IBM System/360 Model 30
+year: 1965
+eol: 1970
+cpu_bits: 8
+ram: 8kB
+ram_max: 64kB
+ram_speed: 0.7MBps
+storage: 10MB
+cpu_ops: 29kIPS
+price: US1964$133000
+mass: 771kg
+url: https://en.wikipedia.org/wiki/IBM_System/360_Model_30
+
+manufacturer: IBM
+computer: IBM System/360 Model 22
+url: https://en.wikipedia.org/wiki/IBM_System/360_Model_22
+price: US1970$246000
+year: 1970
+eol: 1977
+ram: 24KB
+ram_max: 32KB
+mass: 680kg
+
+manufacturer: IBM
+computer: IBM System/360 Model 195
+url: https://en.wikipedia.org/wiki/IBM_System/360_Model_195
+price: US1969$10m
+year: 1969
+eol: 1977
+units: 20
+ram: 1MB
+ram_max: 4MB
+cpu_speed: 18MHz
+cpu_cores: 7

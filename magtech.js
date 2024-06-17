@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let tickvals = [];
             let ticktext = [];
             let shapes = [];
-            for (var i=0; i <= 12; i++) {
+            for (var i=0; i <= 13; i++) {
                 tickvals.push(Math.pow(10, i));
                 ticktext.push(''+i);
                 if (i % 2 == 0) {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 title: 'Magnitude',
                 margin: { t: 0 },
                 xaxis: {
-                    range: [1950, 2025]
+                    range: [1940, 2025]
                 }, 
                 yaxis: {
                     label: "RAM",
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     tickmode: 'array',
                     tickvals: tickvals,
                     ticktext: ticktext,
-                    range: [0, 12]
+                    range: [0, 13]
                 },
                 shapes: shapes
             }});
