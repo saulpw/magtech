@@ -1,0 +1,10 @@
+[build]
+    # Directory to change to before starting a build
+    base = "/"
+
+    # Directory that contains the deploy-ready HTML files
+    # Relative to the base directory
+    publish = "/"
+
+    # Default build command
+    command = "make"
