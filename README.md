@@ -9,20 +9,6 @@ See it at magtech.pw.
 ## pillars
 
 - not completionist, but also not minimalist
-- popular and/or beloved (top 100)
+- popular and/or beloved
 - different categories: mainframe, personal, console, super, VPS
-- product lines
-
-# top priority
-- Apple II
-- iPhone
-- MacBook Pro
-- Macintosh
-- Playstation
-
-- 
-
-
-
-
-
+- focus on product lines
