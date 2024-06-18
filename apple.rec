@@ -1,0 +1,309 @@
+manufacturer: Apple
+computer: Apple I
+
+manufacturer: Apple
+computer: Apple II
+
+manufacturer: Apple
+computer: Apple II+
+
+manufacturer: Apple
+computer: Apple IIe
+
+manufacturer: Apple
+computer: Apple IIc
+
+manufacturer: Apple
+computer: Apple IIe Enhanced
+
+manufacturer: Apple
+computer: Apple IIGS
+
+manufacturer: Apple
+computer: Apple IIc+
+
+manufacturer: Apple
+computer: Apple IIGS (1MB, ROM 3)
+
+manufacturer: Apple
+computer: Macintosh 128k
+
+manufacturer: Apple
+computer: Macintosh 512k
+
+manufacturer: Apple
+computer: Macintosh Plus
+
+manufacturer: Apple
+computer: Macintosh SE
+
+manufacturer: Apple
+computer: Macintosh SE/30
+
+manufacturer: Apple
+computer: Macintosh II
+#computer: Macintosh IIx
+#computer: Macintosh IIcx
+#computer: Macintosh IIci
+#computer: Macintosh IIfx
+#computer: Macintosh IIvi
+#computer: Macintosh IIvx
+
+manufacturer: Apple
+computer: Macintosh IIsi
+
+manufacturer: Apple
+computer: Macintosh Portable
+
+manufacturer: Apple
+computer: Macintosh LC
+#computer: Macintosh LC II
+#computer: Macintosh LC III
+#computer: Macintosh LC III+
+#computer: Macintosh LC 520
+#computer: Macintosh LC 550
+#computer: Macintosh LC 575
+
+manufacturer: Apple
+computer: Macintosh LC 630
+
+manufacturer: Apple
+computer: Macintosh Classic
+#computer: Macintosh Color Classic
+#computer: Macintosh Color Classic II
+
+manufacturer: Apple
+computer: Macintosh Quadra 700/900
+#computer: Macintosh Quadra 950
+#computer: Macintosh Centris/Quadra 610
+#computer: Macintosh Centris/Quadra 650
+#computer: Quadra 800
+#computer: Macintosh Centris/Quadra 660AV
+#computer: Quadra 840AV
+#computer: Quadra 605/610/650
+#computer: Quadra 630
+
+manufacturer: Apple
+computer: PowerBook 165
+#computer: PowerBook 100/140/170
+#computer: PowerBook 145
+#computer: PowerBook 160
+#computer: PowerBook 180
+#computer: PowerBook 165c
+#computer: PowerBook 145b
+#computer: PowerBook 180c
+#computer: PowerBook 520c/540c/550
+
+manufacturer: Apple
+#computer: PowerBook Duo 210
+#computer: PowerBook Duo 230
+#computer: PowerBook Duo 250
+#computer: PowerBook Duo 270c
+#computer: PowerBook Duo 280/280c
+#computer: PowerBook 150
+#computer: PowerBook G3
+#computer: PowerBook
+computer: PowerBook G4
+
+manufacturer: Apple
+#computer: Power Macintosh 6100/7100/8100
+#computer: Power Macintosh 5400
+computer: Power Macintosh G3
+
+manufacturer: Apple
+computer: Workgroup Server 6150/8150/9150
+
+manufacturer: Apple
+#computer: Macintosh Server G3
+#computer: Macintosh Server G4
+computer: Macintosh Server G4 MDD
+
+manufacturer: Apple
+computer: eMac
+computer: PowerMac G4 Cube
+computer: Power Macintosh G4 MDD
+computer: Power Mac G5
+computer: Power Macintosh G5 FX
+
+manufacturer: Apple
+computer: iBook (FireWire)
+computer: iBook G3
+computer: iBook G4
+
+manufacturer: Apple
+computer: iPod 1gen
+year: 2001
+eol: 2003
+battery_life: 10h
+storage: 5GB
+storage_max: 10GB
+ram: 32MB
+cpu_speed: 90MHz
+cpu_cores: 2
+display: 160x128x1
+price: US$399
+
+#computer: iPod 2gen
+#computer: iPod 3gen
+#computer: iPod 4gen
+#computer: iPod 5gen
+#computer: iPod Classic 6gen
+#computer: iPod Mini 1gen
+#computer: iPod Mini 2gen
+#computer: iPod Shuffle 1gen
+#computer: iPod Shuffle 2gen
+#computer: iPod Nano 1gen
+#computer: iPod Nano 2gen
+#computer: iPod Nano 3gen
+#computer: iPod Touch 1gen
+
+manufacturer: Apple
+computer: iPod Touch 7gen
+year: 2019-05-28
+eol: 2022-05-10
+battery_life: 40h
+cpu_cores: 2
+cpu_speed: 1.6GHz
+cpu: Apple A10 Fusion
+ram: 2GB
+storage: 32GB
+storage_max: 256GB
+display: 1136x640
+wifi: a/b/c/g/n/ac
+camera: 8MP
+mass: 88g
+price: US2022$199
+url: https://everymac.com/systems/apple/ipod/specs/ipod-touch-7th-gen-a2178-2019-specs.html
+
+manufacturer: Apple
+#computer: iMac
+#computer: iMac G3
+#computer: iMac G4
+computer: iMac G5
+
+manufacturer: Apple
+computer: MacBook
+
+manufacturer: Apple
+computer: MacBook Pro
+
+manufacturer: Apple
+computer: MacBook Air
+
+manufacturer: Apple
+computer: Mac Pro
+
+manufacturer: Apple
+computer: Mac Mini
+
+manufacturer: Apple
+computer: iPad
+#computer: iPad Mini
+#computer: iPad Air
+#computer: iPad Air 2
+#computer: iPad Mini 2
+#computer: iPad Pro
+
+manufacturer: Apple
+computer: Apple Watch
+
+manufacturer: Apple
+computer: iPhone 1gen
+year: 2007-06-29
+eol: 2008-07-08
+price: US2007$400
+units: 6.1m
+mass: 135g
+size: 115x61x11.6mm
+cpu: Samsung RISC ARM 1176JZ(F)-S v1.0
+cpu_bits: 32
+cpu_speed: 412 MHz
+gpu: PowerVR MBX Lite 3D GPU
+ram: 128MB
+storage: 4GB
+storage_type: flash
+storage_max: 16GB
+battery: 1400mAh
+display: 480x320x262144
+display_type: LCD
+sound_rate: 20kHz
+camera: 2.0MP
+wifi: 802.11b/g
+bandwidth: 3.6Mbps
+url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+
+manufacturer: Apple
+computer: iPhone 3G
+year: 2008-07-11
+eol: 2010-06-07
+price: US2008$200
+mass: 135g
+size: 115x61x11.6mm
+cpu: Samsung RISC ARM 1176JZ(F)-S v1.0
+cpu_bits: 32
+cpu_speed: 412 MHz
+gpu: PowerVR MBX Lite 3D GPU
+ram: 128MB
+storage: 8GB
+storage_type: flash
+storage_max: 16GB
+battery: 1150mAh
+display: 480x320x262144
+display_type: LCD
+sound_rate: 20kHz
+camera: 2.0MP
+wifi: 802.11b/g
+bandwidth: 3.6Mbps
+url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+
+manufacturer: Apple
+computer: iPhone 4
+
+manufacturer: Apple
+computer: iPhone 5
+
+manufacturer: Apple
+computer: iPhone 6
+
+manufacturer: Apple
+computer: iPhone 7
+
+manufacturer: Apple
+computer: iPhone 8
+
+manufacturer: Apple
+computer: iPhone 9
+
+manufacturer: Apple
+computer: iPhone 10
+
+manufacturer: Apple
+computer: iPhone 11
+
+manufacturer: Apple
+computer: iPhone 12
+
+manufacturer: Apple
+computer: iPhone 13
+
+manufacturer: Apple
+computer: iPhone 14
+
+manufacturer: Apple
+computer: iPhone 15
+year: 2023-09-22
+size: 159.9.6x76.7x8.25mm
+mass: 221g
+cpu_speed: 3.78GHz
+cpu_core: 6
+gpu_flops: 2.147TFLOPS
+ram: 8GB
+storage: 256GB
+storage_max: 1TB
+display: 2796x1290
+display_rate: 120Hz
+camera: 48MP
+wifi: 802.11ax
+battery: 4441mAh
+price: US2024$1200
+url: https://en.wikipedia.org/wiki/IPhone_15_Pro

@@ -1,5 +1,5 @@
 
-RECS:= pcs.rec consoles.rec early.rec
+RECS:= pcs.rec consoles.rec early.rec apple.rec
 
 computers.json: magtech.rec
 	python3 compdata.py $<

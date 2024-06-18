@@ -3,7 +3,7 @@ manufacturer: IBM
 computer: Harvard Mark I
 year: 1944
 cpu_flops: 3
-cpu_power: 3.7kW
+power: 3.7kW
 # could store 72 numbers, each 23 decimal digits long.  72*23*log2(10)/8
 ram: 687
 size: 16x2.4x0.61m
@@ -122,3 +122,131 @@ ram: 1MB
 ram_max: 4MB
 cpu_speed: 18MHz
 cpu_cores: 7
+
+manufacturer: Control Data Corp
+computer: CDC 1604
+year: 1960
+units: 50
+price: US1960$1m
+ram: 192KB
+mass: 1000kg
+size: 1760x2270x680mm
+power: 5.5kW
+cpu_bits: 48
+cpu_speed: 208kHz
+cpu_ips: 100k
+url: https://en.wikipedia.org/wiki/CDC_1604
+
+manufacturer: Control Data Corp
+computer: CDC 7600
+year: 1967
+price: US1967$5m
+size: 1880x3020mm
+power: 95kW
+cpu_bits: 60
+cpu_ips: 15m
+cpu_flops: 36m
+ram: 3.84MB
+units: 75
+url: https://en.wikipedia.org/wiki/CDC_7600
+
+manufacturer: Cray Research
+computer: Cray-1
+year: 1975
+units: 100
+price: US1977$7.9m
+size: 1960x2630mm
+mass: 5500kg
+power: 115kW
+cpu_bits: 64
+cpu_speed: 80MHz
+cpu_flops: 160MFLOPS
+ram: 8.39MB
+storage: 303MB
+url: https://en.wikipedia.org/wiki/Cray-1
+
+manufacturer: Cray Research
+computer: Cray X-MP
+year: 1982
+price: US1982$15m
+power: 345kW
+mass: 5120kg
+size: 2.62x1.96m
+cpu_cores: 4
+cpu_bits: 64
+cpu_speed: 105MHz
+ram: 128MB
+storage: 38.4GB
+ips: 400MIPS
+flops: 800MFLOPS
+url: https://en.wikipedia.org/wiki/Cray_X-MP
+
+manufacturer: Cray Research
+computer: Cray-2
+year: 1985
+eol: 1990
+units: 25
+flops: 19.GFLOPS
+url: https://en.wikipedia.org/wiki/Cray-2
+
+manufacturer: Cray Research
+computer: Cray Y-MP Model D
+year: 1988
+mass: 635kg
+cpu_cores: 8
+cpu_bits: 32
+cpu_speed: 167MHz
+ram: 128MB
+ram_max: 512MB
+storage: 4GB
+flops: 2.144GFLOPS
+url: https://en.wikipedia.org/wiki/Cray_Y-MP
+
+manufacturer: Cray Research
+computer: Cray Y-MP C90
+year: 1991
+mass: 635kg
+cpu_cores: 16
+cpu_bits: 32
+cpu_speed: 244MHz
+ram: 1GB
+ram_max: 8GB
+storage: 4GB
+url: https://en.wikipedia.org/wiki/Cray_C90
+
+manufacturer: Cray Research
+computer: Cray T90
+year: 1995
+price: US1995$35m
+mass: 9100kg
+cpu_cores: 32
+cpu_bits: 64
+cpu_bandwidth: 360GBps
+cpu_speed: 450MHz
+cpu_flops: 1.8GFLOPS
+ram: 8GB
+ram_max: 8GB
+url: https://en.wikipedia.org/wiki/Cray_T90
+
+manufacturer: Cray Research
+computer: Cray X1
+year: 2003
+cpu_cores: 64
+cpu_bits: 64
+cpu_bandwidth: 12GBps
+cpu_speed: 800MHz
+cpu_flops: 12.8GFLOPS
+ram: 16GB
+ram_max: 8GB
+url: https://en.wikipedia.org/wiki/Cray_X1
+
+manufacturer: Raytheon
+url: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
+year: 1966
+eol: 1975
+cpu_speed: 2.04MHz
+ram: 4KB
+rom: 74KB
+power: 55W
+size: .61x.32x.17m
+mass: 32kg

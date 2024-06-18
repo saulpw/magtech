@@ -127,7 +127,6 @@ cpu:  ARM 4 Cortex-A57 cores
 cpu_speed: 1.02 GHz
 ram: 4 GB
 cpu_bits: 64
-
 tags: congen8
 
 computer: Game Boy
@@ -178,7 +177,7 @@ cpu_speed: 268MHz
 ram: 128MB
 storage: 4GB
 stoage_type: eMMC
-dipslay: 2x TN LCD
+display: 2x TN LCD
 gpu: DMP PICA200
 gpu_speed: 268MHz
 camera: 0.3MP
