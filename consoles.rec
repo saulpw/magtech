@@ -1,7 +1,8 @@
 
 computer: Game & Watch
+type: console
 manufacturer: Nintendo
-year: 1980
+released: 1980
 units: 43.4m
 cpu: Sharp SM5xx
 cpu_speed:
@@ -14,8 +15,9 @@ url: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fr8w6mdgcas681.jp
 tags: congen2
 
 computer: Intellivision
+type: console
 manufacturer: Mattel
-year: 1979
+released: 1979
 url: https://en.wikipedia.org/wiki/Intellivision
 units: 5m
 price: US1979$275
@@ -29,15 +31,18 @@ cpu_speed: 2MHz
 tags: congen2
 
 computer: Color TV Game
+type: console
 manufacturer: Nintendo
 
 computer: Famicom
+type: console
 manufacturer: Nintendo
 
 computer: NES
+type: console
 manufacturer: Nintendo
 cpu_bits: 8
-year: 1983
+released: 1983
 url: https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
 price: US1985$179
 units: 61.91m
@@ -48,11 +53,13 @@ ram: 4256
 tags: congen3
 
 computer: Famicom Disk System
+type: console
 manufacturer: Nintendo
 
 computer: SNES
+type: console
 manufacturer: Nintendo
-year: 1990
+released: 1990
 price: US1990$199
 url: https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System
 units: 40.1m
@@ -64,11 +71,13 @@ cpu_bits: 16
 tags: congen4
 
 computer: Virtual Boy
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo 64
+type: console
 manufacturer: Nintendo
-year: 1996
+released: 1996
 units: 32.93m
 cpu_bits: 64
 cpu_speed: 93.75MHz
@@ -86,10 +95,11 @@ url: https://en.wikipedia.org/wiki/Nintendo_64
 tags: congen5
 
 computer: GameCube
+type: console
 manufacturer: Nintendo
 url: https://en.wikipedia.org/wiki/GameCube
 units: 21.74m
-year: 2001
+released: 2001
 cpu: IBM PowerPC 750CXe Gekko
 cpu_speed: 486 MHz
 cpu_bits: 32
@@ -98,8 +108,9 @@ tags: congen6
 price: US2001$199
 
 computer: Nintendo Wii
+type: console
 manufacturer: Nintendo
-year: 2006
+released: 2006
 price: US2006$250
 units: 101.63m
 ram: 88MB
@@ -118,11 +129,12 @@ mass: 1.22kg
 tags: congen7
 
 computer: Nintendo Switch
+type: console
 manufacturer: Nintendo
 url: https://en.wikipedia.org/wiki/Nintendo_Switch
 units: 141.32m
 price: US2017$300
-year: 2017
+released: 2017
 cpu:  ARM 4 Cortex-A57 cores
 cpu_speed: 1.02 GHz
 ram: 4 GB
@@ -130,45 +142,58 @@ cpu_bits: 64
 tags: congen8
 
 computer: Game Boy
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Pocket
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Light
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Color
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Advance
+type: console
 manufacturer: Nintendo
 
 computer: Pokemon Mini
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Advance SP
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo DS
+type: console
 manufacturer: Nintendo
 
 computer: Game Boy Micro
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo DS Lite
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo DSi
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo DSi XL
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo 3DS
+type: console
 manufacturer: Nintendo
 url: https://en.wikipedia.org/wiki/Nintendo_3DS
-year: 2011
+released: 2011
 price: US2011$250
 units: 76000000
 cpu_cores: 2
@@ -176,7 +201,7 @@ cpu: ARM11 MPCore
 cpu_speed: 268MHz
 ram: 128MB
 storage: 4GB
-stoage_type: eMMC
+storage_type: eMMC
 display: 2x TN LCD
 gpu: DMP PICA200
 gpu_speed: 268MHz
@@ -189,41 +214,53 @@ size: 134x74x21 mm
 tags: handheld congen8
 
 computer: New Nintendo 3DS
+type: console
 manufacturer: Nintendo
 
 computer: Nintendo 2DS
+type: console
 manufacturer: Nintendo
 
 computer: Sega SG X000
+type: console
 manufacturer: Sega
 
 computer: Sega Master System
+type: console
 manufacturer: Sega
 
 computer: Sega Genesis Mega Drive
+type: console
 manufacturer: Sega
 
 computer: Sega Mega CD
+type: console
 manufacturer: Sega
 
 computer: Sega 32X
+type: console
 manufacturer: Sega
 
 computer: Sega Saturn
+type: console
 manufacturer: Sega
 
 computer: Sega Dreamcast
+type: console
 manufacturer: Sega
 
 computer: Microsoft Xbox
+type: console
 manufacturer: Microsoft
 
 computer: Microsoft Xbox 360
+type: console
 manufacturer: Microsoft
 
 computer: Microsoft Xbox One
+type: console
 manufacturer: Microsoft
-year: 2013
+released: 2013
 tags: congen8
 units: 58m
 price: US2013$500
@@ -242,8 +279,9 @@ wifi: 802.11n
 url: https://en.wikipedia.org/wiki/Xbox_One
 
 computer: Microsoft Xbox Series X
+type: console
 manufacturer: Microsoft
-year: 2020
+released: 2020
 tags: congen9
 cpu_bits: 64
 cpu: Custom AMD 8-core Zen 2
@@ -264,18 +302,22 @@ wifi: 802.11ac
 url: https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
 
 computer: Sony PlayStation
+type: console
 manufacturer: Sony
 
 computer: Sony PlayStation 2
+type: console
 manufacturer: Sony
 
 computer: Sony PlayStation 3
+type: console
 manufacturer: Sony
 
 computer: Sony PlayStation TV
+type: console
 manufacturer: Sony
-year: 2013
-price_us_2014: 99
+released: 2013
+price: US2014$99
 tags: congen8
 ram: 512MB
 storage: 1GB
@@ -287,8 +329,9 @@ url: https://en.wikipedia.org/wiki/PlayStation_TV
 wifi: 802.11b/g/n
 
 computer: Sony PlayStation 4
+type: console
 manufacturer: Sony
-year: 2013
+released: 2013
 price: US2014$400
 units: 117m
 tags: congen8
@@ -304,49 +347,65 @@ url: https://en.wikipedia.org/wiki/PlayStation_4
 wifi: 802.11n
 
 computer: Sony PlayStation 5
+type: console
 manufacturer: Sony
 
 computer: Atari C-XXX
+type: console
 manufacturer: Atari
 
 computer: Atari 2600
+type: console
 manufacturer: Atari
 
 computer: Atari 5200
+type: console
 manufacturer: Atari
 
 computer: Atari 7800
+type: console
 manufacturer: Atari
 
 computer: Atari XEGS
+type: console
 manufacturer: Atari
 
 computer: Atari Jaguar
+type: console
 manufacturer: Atari
 
 computer: Atari Jaguar CD
+type: console
 manufacturer: Atari
 
 computer: TurboGrafx-16
+type: console
 manufacturer: NEC
 
 computer: TurboDuo
+type: console
 manufacturer: NEC
 
 computer: PC-FX
+type: console
 manufacturer: NEC
 
 computer: TurboExpress
+type: console
 manufacturer: NEC
 
 computer: Magnavox Odyssey
+type: console
 manufacturer: Philips Magnavox
 
 computer: Philips Odyssey
+type: console
 manufacturer: Philips Magnavox
 
 computer: Magnavox Odyssey 2
+type: console
 manufacturer: Philips Magnavox
 
 computer: CD-i
+type: console
 manufacturer: Philips Magnavox

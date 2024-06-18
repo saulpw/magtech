@@ -12,21 +12,27 @@ factors = {
     'GB': 2**30,
     'MB': 2**20,
     'KB': 2**10,
-    'b': 1,
-    'm': 10**6,
-    'k': 10**3,
+    'BYTES': 1,
+    'B': 10**9,
+    'M': 10**6,
+    'K': 10**3,
 }
 
-def cleanval(v):
-    if not isinstance(v, str):
-        return v
+def cleanval(origv):
+    if not isinstance(origv, str):
+        return origv
 
-    for factor, amt in factors.items():
-        if v.upper().endswith(factor):
-            v = re.sub(factor, '', v, flags=re.I)
-            v = v.strip()
-            return float(v)*amt
-    return v
+    v = origv
+    try:
+        for factor, amt in factors.items():
+            if v.upper().endswith(factor):
+                v = re.sub(factor, '', v, flags=re.I)
+                v = v.strip()
+                return float(v)*amt
+    except Exception as e:
+        pass
+
+    return origv
 
 def decode_multiline(line, fp):
     'Parse *line* and lookahead into *fp* as iterator for continuing lines.  Return (multiline, next_line) where *multiline* can contain newlines and *next_line is the line after the combined *multiline*.  Handle "\\" at end and "+" at beginning of lines.  *next_line* will be None iff iterator is exhausted.'

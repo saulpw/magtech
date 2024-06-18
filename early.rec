@@ -1,7 +1,8 @@
 
 manufacturer: IBM
 computer: Harvard Mark I
-year: 1944
+type: academic
+released: 1944
 cpu_flops: 3
 power: 3.7kW
 # could store 72 numbers, each 23 decimal digits long.  72*23*log2(10)/8
@@ -12,7 +13,8 @@ url: https://en.wikipedia.org/wiki/Harvard_Mark_I
 
 manufacturer: Harvard
 computer: Harvard Mark II
-year: 1947
+type: academic
+released: 1947
 mass: 23000kg
 cpu_flops: 8
 cpu_cores: 2
@@ -24,7 +26,8 @@ url: https://en.wikipedia.org/wiki/Harvard_Mark_II
 
 manufacturer: Harvard
 computer: Harvard Mark III
-year: 1950
+type: academic
+released: 1950
 mass: 10000kg
 cpu_flops: 250
 ram: 19000
@@ -34,32 +37,37 @@ url: https://en.wikipedia.org/wiki/Harvard_Mark_III
 
 manufacturer: US Army
 computer: ENIAC
-year: 1945
+type: academic
+released: 1945
 cpu_flops: 500
 
 manufacturer: University of Manchester
 computer: Manchester Baby
-year: 1948
+type: academic
+released: 1948
 ram: 128
 cpu_ops: 1100
 url: https://en.wikipedia.org/wiki/Manchester_Baby
 
 manufacturer: US National Bureau of Standards
 computer: SWAC
-year: 1950
+type: mainframe
+released: 1950
 cpu_flops: 15625
 ram: 1184
 url: https://en.wikipedia.org/wiki/SWAC_(computer)
 
 manufacturer: Ferranti Ltd
 computer: Ferranti Mark 1
-year: 1951
+type: mainframe
+released: 1951
 ram: 1280
 storage: 81920
 url: https://en.wikipedia.org/wiki/Ferranti_Mark_1
 
 manufacturer: Remington Rand
 computer: UNIVAC
+type: mainframe
 size: 4.3x2.4x2.6m
 mass: 7600kg
 price: US1951$159000
@@ -68,7 +76,8 @@ url: https://en.wikipedia.org/wiki/UNIVAC_I
 
 manufacturer: IBM
 computer: IBM 650
-year: 1954
+type: mainframe
+released: 1954
 ram: 9kB
 ram_max: 35kB
 cpu_ops: 40
@@ -79,7 +88,8 @@ url: https://en.wikipedia.org/wiki/IBM_650
 
 manufacturer: IBM
 computer: IBM 1401
-year: 1959
+type: mainframe
+released: 1959
 eol: 1971
 ram: 1050
 ram_max: 12000
@@ -89,7 +99,8 @@ url: https://en.wikipedia.org/wiki/IBM_1401
 
 manufacturer: IBM
 computer: IBM System/360 Model 30
-year: 1965
+type: mainframe
+released: 1965
 eol: 1970
 cpu_bits: 8
 ram: 8kB
@@ -103,9 +114,10 @@ url: https://en.wikipedia.org/wiki/IBM_System/360_Model_30
 
 manufacturer: IBM
 computer: IBM System/360 Model 22
+type: mainframe
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_22
 price: US1970$246000
-year: 1970
+released: 1970
 eol: 1977
 ram: 24KB
 ram_max: 32KB
@@ -113,9 +125,10 @@ mass: 680kg
 
 manufacturer: IBM
 computer: IBM System/360 Model 195
+type: mainframe
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_195
 price: US1969$10m
-year: 1969
+released: 1969
 eol: 1977
 units: 20
 ram: 1MB
@@ -125,7 +138,8 @@ cpu_cores: 7
 
 manufacturer: Control Data Corp
 computer: CDC 1604
-year: 1960
+type: mainframe
+released: 1960
 units: 50
 price: US1960$1m
 ram: 192KB
@@ -139,7 +153,8 @@ url: https://en.wikipedia.org/wiki/CDC_1604
 
 manufacturer: Control Data Corp
 computer: CDC 7600
-year: 1967
+type: mainframe
+released: 1967
 price: US1967$5m
 size: 1880x3020mm
 power: 95kW
@@ -152,7 +167,8 @@ url: https://en.wikipedia.org/wiki/CDC_7600
 
 manufacturer: Cray Research
 computer: Cray-1
-year: 1975
+type: supercomputer
+released: 1975
 units: 100
 price: US1977$7.9m
 size: 1960x2630mm
@@ -167,7 +183,8 @@ url: https://en.wikipedia.org/wiki/Cray-1
 
 manufacturer: Cray Research
 computer: Cray X-MP
-year: 1982
+type: supercomputer
+released: 1982
 price: US1982$15m
 power: 345kW
 mass: 5120kg
@@ -183,7 +200,8 @@ url: https://en.wikipedia.org/wiki/Cray_X-MP
 
 manufacturer: Cray Research
 computer: Cray-2
-year: 1985
+type: supercomputer
+released: 1985
 eol: 1990
 units: 25
 flops: 19.GFLOPS
@@ -191,7 +209,8 @@ url: https://en.wikipedia.org/wiki/Cray-2
 
 manufacturer: Cray Research
 computer: Cray Y-MP Model D
-year: 1988
+type: supercomputer
+released: 1988
 mass: 635kg
 cpu_cores: 8
 cpu_bits: 32
@@ -204,7 +223,8 @@ url: https://en.wikipedia.org/wiki/Cray_Y-MP
 
 manufacturer: Cray Research
 computer: Cray Y-MP C90
-year: 1991
+type: supercomputer
+released: 1991
 mass: 635kg
 cpu_cores: 16
 cpu_bits: 32
@@ -216,7 +236,8 @@ url: https://en.wikipedia.org/wiki/Cray_C90
 
 manufacturer: Cray Research
 computer: Cray T90
-year: 1995
+type: supercomputer
+released: 1995
 price: US1995$35m
 mass: 9100kg
 cpu_cores: 32
@@ -230,7 +251,8 @@ url: https://en.wikipedia.org/wiki/Cray_T90
 
 manufacturer: Cray Research
 computer: Cray X1
-year: 2003
+type: supercomputer
+released: 2003
 cpu_cores: 64
 cpu_bits: 64
 cpu_bandwidth: 12GBps
@@ -241,8 +263,10 @@ ram_max: 8GB
 url: https://en.wikipedia.org/wiki/Cray_X1
 
 manufacturer: Raytheon
+computer: Apollo Guidance Computer
+type: embedded
 url: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
-year: 1966
+released: 1966
 eol: 1975
 cpu_speed: 2.04MHz
 ram: 4KB

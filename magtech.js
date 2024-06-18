@@ -2,10 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('/computers.json')
         .then(response => response.json())
         .then(data => {
-            var year = data.map(p => p.year);
-            var ram = data.map(p => p.ram);
-            var hover = data.map(p => p.computer);
-
             let tickvals = [];
             let ticktext = ['1 byte', '16 bytes', '128 bytes', '1kb', '16kb', '128kb', '1MB', '16MB', '128MB', '1GB', '16GB', '128GB', '1TB', '16TB', '128TB'];
             let shapes = [];
@@ -30,28 +26,32 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             let plotdiv = document.getElementById('plot');
-            Plotly.newPlot(plotdiv, { data: [ {
+            Plotly.newPlot(plotdiv, {
+            data: [ {
                 name: '',
-                x: year,
-                y: ram,
+                x: data.map(p => p.released),
+                y: data.map(p => p.ram),
                 mode: 'markers',
                 type: 'scatter',
                 transforms: [{
                     type: 'groupby',
-                    groups: data.map(p => p.manufacturer),
+                    groups: data.map(p => p.type),
                     styles: [
-                        {target: 'Nintendo', value: {marker: {color: 'blue'}}},
-                        {target: 'Sony', value: {marker: {color: 'red'}}},
-                        {target: 'Apple', value: {marker: {color: 'green'}}},
+                        {target: 'PC', value: {marker: {color: 'green'}}},
+                        {target: 'mainframe', value: {marker: {color: 'maroon'}}},
+                        {target: 'supercomputer', value: {marker: {color: 'red'}}},
+                        {target: 'console', value: {marker: {color: 'blue'}}},
+                        {target: 'mobile', value: {marker: {color: 'teal'}}},
+                        {target: 'server', value: {marker: {color: 'lime'}}},
+                        {target: 'embedded', value: {marker: {color: 'black'}}},
                     ]
                 }],
                 marker: {
-                    color: 'brown',
-                    size: 4
+                    size: data.map(p => p.units ? Math.max(4, Math.log10(p.units)) : 4),
                 },
                 hoverinfo: "text",
                 hovertemplate: "%{text}",
-                text: hover
+                text: data.map(p => p.computer) // hover text
             }],
             layout: {
                 title: 'Magnitude',
