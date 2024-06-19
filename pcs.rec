@@ -28,6 +28,7 @@ type: PC
 computer: Atari 400
 type: PC
 manufacturer: Atari
+product: Atari computer
 price: US1979$550
 released: 1979
 units: 4m
@@ -40,10 +41,11 @@ url: https://en.wikipedia.org/wiki/Atari_8-bit_computers
 computer: Atari 800
 type: PC
 manufacturer: Atari
+product: Atari computer
 cpu: MOS 6502
 cpu_speed: 1.8MHz
-ram: 8192
-ram_max: 48000
+ram: 8kB
+ram_max: 48kB
 released: 1979
 price: US1979$1000
 url: https://oldcomputers.net/atari800.html
@@ -56,18 +58,22 @@ storage_type: extFDD
 manufacturer: Atari
 computer: Atari 1200XL
 type: PC
+product: Atari computer
 
 manufacturer: Atari
 computer: Atari 600XL
 type: PC
+product: Atari computer
 
 manufacturer: Atari
 computer: Atari 1200XL
 type: PC
+product: Atari computer
 
 manufacturer: Atari
 computer: Atari ST
 type: PC
+product: Atari computer
 
 
 manufacturer: Commodore
@@ -133,26 +139,88 @@ url: https://en.wikipedia.org/wiki/Amiga_1000
 manufacturer: Tandy
 computer: TRS-80 Model I
 type: PC
+product: TRS-80
+released: 1977-08-03
+price: US1977$600
+eol: 1981-01
+units: 100k
+ram: 4kB
+ram_max: 48kB
+res_char: 64x16
+cpu: Zilog Z80
+cpu_freq: 1.774MHz
+storage_bandwidth: 30Bps
+url: https://en.wikipedia.org/wiki/TRS-80
 
 manufacturer: Tandy
 computer: TRS-80 Model III
 type: PC
+product: TRS-80
+released: 1980-07-26
+eol: 1983-09
+price: US1980$700
+ram: 4KB
+ram_max: 48KB
+storage_max: 360KB
+url: https://en.wikipedia.org/wiki/TRS-80
 
 manufacturer: Tandy
 computer: TRS-80 Model IV
 type: PC
+product: TRS-80
+released: 1983-04
+cpu: Z80A
+cpu_freq: 4MHz
+display: 640x240
+ram: 64KB
+ram_max: 128KB
+price: US1983$1700
+units: 71000
+eol: 1991
+url: https://en.wikipedia.org/wiki/TRS-80_Model_4
 
 manufacturer: Tandy
-computer: TRS-80 CoCo
+computer: TRS-80 Model 100
 type: PC
+product: TRS-80
+released: 1983-04-26
+price: US1983$1100
+units: 6m
+cpu: Oki 80C85
+cpu_freq: 2.4MHz
+ram: 32KB
+display: 240x64
+size: 300x215x50mm
+mass: 1.4kg
+battery_life: 20h
+url: https://en.wikipedia.org/wiki/TRS-80_Model_100
 
 manufacturer: Tandy
-computer: TRS-80 CoCo 2
+computer: TRS-80 Color Computer 2
 type: PC
+product: TRS-80
+released: 1983
+price: US1983$159
+cpu: 6809E
+cpu_freq: 0.895MHz
+ram: 16KB
+ram_max: 64KB
+sound_bits: 6
+url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy
-computer: TRS-80 CoCo 3
+computer: TRS-80 Color Computer 3
 type: PC
+product: TRS-80
+released: 1986
+price: US1986$219
+cpu: 6809E
+cpu_freq: 0.895MHz
+ram: 128KB
+ram_max: 512KB
+sound_bits: 6
+display: 640x225x64
+url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy
 computer: Tandy 2000

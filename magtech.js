@@ -25,10 +25,35 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
             }
 
-            let plotdiv = document.getElementById('plot');
-            Plotly.newPlot(plotdiv, {
-            data: [ {
-                name: '',
+            var traces = []
+            var productlines = {};
+
+            data = data.filter(p => p.released && p.ram);
+            data.sort((a,b) => a.released.localeCompare(b.released));
+            for (var p of data) {
+                if (!p.product) {
+                    continue;
+                }
+                var pl = p.product;
+                if (!productlines.hasOwnProperty(pl)) {
+                    productlines[pl] = []
+                }
+                productlines[pl].push(p);
+            }
+            for (var pl in productlines) {
+              var rows = productlines[pl];
+              traces.push({
+                name: pl+" RAM",
+                x: rows.map(p => p.released),
+                y: rows.map(p => p.ram),
+                mode: 'markers+lines',
+                type: 'scatter',
+                hoverinfo: 'text'
+              })
+            }
+
+            traces.push({
+                name: "RAM",
                 x: data.map(p => p.released),
                 y: data.map(p => p.ram),
                 mode: 'markers',
@@ -52,16 +77,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 hoverinfo: "text",
                 hovertemplate: "%{text}",
                 text: data.map(p => p.computer) // hover text
-            }],
-            layout: {
+            })
+
+            var layout = {
                 title: 'Magnitude',
                 margin: { t: 0 },
                 xaxis: {
+                    title: 'Year',
                     range: ['1940', '2025'],
                     type: 'date'
                 }, 
                 yaxis: {
-                    label: "RAM",
+                    title: "RAM",
                     type: 'log',
                     tickmode: 'array',
                     tickvals: tickvals,
@@ -69,9 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     range: [0, 14]
                 },
                 shapes: shapes
-            }});
+            }
 
-
+            let plotdiv = document.getElementById('plot');
+            Plotly.newPlot(plotdiv, traces, layout);
         })
         .catch(error => console.error('Error loading JSON data:', error));
 });

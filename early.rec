@@ -100,6 +100,7 @@ url: https://en.wikipedia.org/wiki/IBM_1401
 manufacturer: IBM
 computer: IBM System/360 Model 30
 type: mainframe
+#product: IBM System/360
 released: 1965
 eol: 1970
 cpu_bits: 8
@@ -115,6 +116,7 @@ url: https://en.wikipedia.org/wiki/IBM_System/360_Model_30
 manufacturer: IBM
 computer: IBM System/360 Model 22
 type: mainframe
+#product: IBM System/360
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_22
 price: US1970$246000
 released: 1970
@@ -126,6 +128,7 @@ mass: 680kg
 manufacturer: IBM
 computer: IBM System/360 Model 195
 type: mainframe
+#product: IBM System/360
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_195
 price: US1969$10m
 released: 1969
@@ -164,103 +167,6 @@ cpu_flops: 36m
 ram: 3.84MB
 units: 75
 url: https://en.wikipedia.org/wiki/CDC_7600
-
-manufacturer: Cray Research
-computer: Cray-1
-type: supercomputer
-released: 1975
-units: 100
-price: US1977$7.9m
-size: 1960x2630mm
-mass: 5500kg
-power: 115kW
-cpu_bits: 64
-cpu_speed: 80MHz
-cpu_flops: 160MFLOPS
-ram: 8.39MB
-storage: 303MB
-url: https://en.wikipedia.org/wiki/Cray-1
-
-manufacturer: Cray Research
-computer: Cray X-MP
-type: supercomputer
-released: 1982
-price: US1982$15m
-power: 345kW
-mass: 5120kg
-size: 2.62x1.96m
-cpu_cores: 4
-cpu_bits: 64
-cpu_speed: 105MHz
-ram: 128MB
-storage: 38.4GB
-ips: 400MIPS
-flops: 800MFLOPS
-url: https://en.wikipedia.org/wiki/Cray_X-MP
-
-manufacturer: Cray Research
-computer: Cray-2
-type: supercomputer
-released: 1985
-eol: 1990
-units: 25
-flops: 19.GFLOPS
-url: https://en.wikipedia.org/wiki/Cray-2
-
-manufacturer: Cray Research
-computer: Cray Y-MP Model D
-type: supercomputer
-released: 1988
-mass: 635kg
-cpu_cores: 8
-cpu_bits: 32
-cpu_speed: 167MHz
-ram: 128MB
-ram_max: 512MB
-storage: 4GB
-flops: 2.144GFLOPS
-url: https://en.wikipedia.org/wiki/Cray_Y-MP
-
-manufacturer: Cray Research
-computer: Cray Y-MP C90
-type: supercomputer
-released: 1991
-mass: 635kg
-cpu_cores: 16
-cpu_bits: 32
-cpu_speed: 244MHz
-ram: 1GB
-ram_max: 8GB
-storage: 4GB
-url: https://en.wikipedia.org/wiki/Cray_C90
-
-manufacturer: Cray Research
-computer: Cray T90
-type: supercomputer
-released: 1995
-price: US1995$35m
-mass: 9100kg
-cpu_cores: 32
-cpu_bits: 64
-cpu_bandwidth: 360GBps
-cpu_speed: 450MHz
-cpu_flops: 1.8GFLOPS
-ram: 8GB
-ram_max: 8GB
-url: https://en.wikipedia.org/wiki/Cray_T90
-
-manufacturer: Cray Research
-computer: Cray X1
-type: supercomputer
-released: 2003
-cpu_cores: 64
-cpu_bits: 64
-cpu_bandwidth: 12GBps
-cpu_speed: 800MHz
-cpu_flops: 12.8GFLOPS
-ram: 16GB
-ram_max: 8GB
-url: https://en.wikipedia.org/wiki/Cray_X1
 
 manufacturer: Raytheon
 computer: Apollo Guidance Computer

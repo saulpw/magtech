@@ -2,6 +2,7 @@
 computer: Game & Watch
 type: console
 manufacturer: Nintendo
+product: Nintendo
 released: 1980
 units: 43.4m
 cpu: Sharp SM5xx
@@ -12,7 +13,6 @@ ram: 256
 screen: LCD
 url: https://en.wikipedia.org/wiki/Game_%26_Watch
 url: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fr8w6mdgcas681.jpg
-tags: congen2
 
 computer: Intellivision
 type: console
@@ -28,7 +28,6 @@ colors: 16
 cpu: GII CP1610
 cpu_bits: 16
 cpu_speed: 2MHz
-tags: congen2
 
 computer: Color TV Game
 type: console
@@ -41,6 +40,7 @@ manufacturer: Nintendo
 computer: NES
 type: console
 manufacturer: Nintendo
+product: Nintendo
 cpu_bits: 8
 released: 1983
 url: https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
@@ -50,7 +50,6 @@ cpu: Ricoh 2A03
 cpu_speed: 1.79MHz
 display: 256x240x25
 ram: 4256
-tags: congen3
 
 computer: Famicom Disk System
 type: console
@@ -59,6 +58,7 @@ manufacturer: Nintendo
 computer: SNES
 type: console
 manufacturer: Nintendo
+product: Nintendo
 released: 1990
 price: US1990$199
 url: https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System
@@ -68,7 +68,6 @@ ram: 128 KB
 display: 256 × 15
 cpu_speed: 3.58 MHz
 cpu_bits: 16
-tags: congen4
 
 computer: Virtual Boy
 type: console
@@ -77,6 +76,7 @@ manufacturer: Nintendo
 computer: Nintendo 64
 type: console
 manufacturer: Nintendo
+product: Nintendo
 released: 1996
 units: 32.93m
 cpu_bits: 64
@@ -92,11 +92,11 @@ sound_channels: 2
 size: 72.9mmx259.8mmx190.0mm
 mass: 1.10kg
 url: https://en.wikipedia.org/wiki/Nintendo_64
-tags: congen5
 
 computer: GameCube
 type: console
 manufacturer: Nintendo
+product: Nintendo
 url: https://en.wikipedia.org/wiki/GameCube
 units: 21.74m
 released: 2001
@@ -104,12 +104,12 @@ cpu: IBM PowerPC 750CXe Gekko
 cpu_speed: 486 MHz
 cpu_bits: 32
 ram: 24 MB
-tags: congen6
 price: US2001$199
 
 computer: Nintendo Wii
 type: console
 manufacturer: Nintendo
+product: Nintendo
 released: 2006
 price: US2006$250
 units: 101.63m
@@ -126,12 +126,12 @@ gpu_speed: 243MHz
 wifi: 802.11b/g
 size: 157x60x197mm
 mass: 1.22kg
-tags: congen7
 
 computer: Nintendo Switch
 type: console
 manufacturer: Nintendo
-url: https://en.wikipedia.org/wiki/Nintendo_Switch
+product: Nintendo
+url: https://en.wikipedia.org/wiki/Nintendo_Switchhttps://en.wikipedia.org/wiki/Game_Boy
 units: 141.32m
 price: US2017$300
 released: 2017
@@ -139,11 +139,21 @@ cpu:  ARM 4 Cortex-A57 cores
 cpu_speed: 1.02 GHz
 ram: 4 GB
 cpu_bits: 64
-tags: congen8
 
 computer: Game Boy
 type: console
 manufacturer: Nintendo
+product: Nintendo handheld
+released: 1989-04-21
+price: US1989$90
+eol: 2003-03-31
+units: 118.7m
+cpu: Sharp SM83
+cpu_freq: 4MHz
+ram: 16KB
+cpu_ram: 8KB
+gpu_ram: 8KB
+url: https://en.wikipedia.org/wiki/Game_Boy
 
 computer: Game Boy Pocket
 type: console
@@ -172,6 +182,16 @@ manufacturer: Nintendo
 computer: Nintendo DS
 type: console
 manufacturer: Nintendo
+product: Nintendo handheld
+released: 2004-11-21
+eol: 2014-05-20
+price: US2004$150
+ram: 4 MB
+units: 154.02m
+cpu: ARM946E-S
+cpu_freq: 67 MHz
+cpu_bits: 32
+url: https://en.wikipedia.org/wiki/Nintendo_DS
 
 computer: Game Boy Micro
 type: console
@@ -192,6 +212,7 @@ manufacturer: Nintendo
 computer: Nintendo 3DS
 type: console
 manufacturer: Nintendo
+product: Nintendo handheld
 url: https://en.wikipedia.org/wiki/Nintendo_3DS
 released: 2011
 price: US2011$250
@@ -211,7 +232,6 @@ battery: 1300mAh
 battery_life: 5 hours
 mass: 235g
 size: 134x74x21 mm
-tags: handheld congen8
 
 computer: New Nintendo 3DS
 type: console
@@ -251,17 +271,19 @@ manufacturer: Sega
 
 computer: Microsoft Xbox
 type: console
+product: Xbox
 manufacturer: Microsoft
 
 computer: Microsoft Xbox 360
 type: console
+product: Xbox
 manufacturer: Microsoft
 
 computer: Microsoft Xbox One
 type: console
 manufacturer: Microsoft
-released: 2013
-tags: congen8
+product: Xbox
+#released: 2013
 units: 58m
 price: US2013$500
 cpu: Custom AMD
@@ -281,8 +303,8 @@ url: https://en.wikipedia.org/wiki/Xbox_One
 computer: Microsoft Xbox Series X
 type: console
 manufacturer: Microsoft
-released: 2020
-tags: congen9
+product: Xbox
+#released: 2020
 cpu_bits: 64
 cpu: Custom AMD 8-core Zen 2
 cpu_cores: 8
@@ -304,37 +326,78 @@ url: https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
 computer: Sony PlayStation
 type: console
 manufacturer: Sony
+product: PlayStation
+released: 1994-12-03
+eol: 2006-03-23
+price: US1994$299
+units: 102.49m
+cpu: R3000
+cpu_speed: 33.8688MHz
+ram: 3MB
+sound_bits: 16
+sound_channels: 24
+url: https://en.wikipedia.org/wiki/PlayStation_(console)
 
 computer: Sony PlayStation 2
 type: console
 manufacturer: Sony
+product: PlayStation
+released: 2000-03-04
+price: US2000$299
+eol: 2013-01-04
+units: 155m
+cpu: MIPS R5900 Emotion Engine
+cpu_speed: 299MHz
+ram: 36MB
+storage: 8MB
+sound_rate: 48kHz
+size: .787x.302x.183m
+mass: 2.2kg
+url: https://en.wikipedia.org/wiki/PlayStation_2
 
 computer: Sony PlayStation 3
 type: console
 manufacturer: Sony
+product: PlayStation
+released: 2006-11-11
+ram: 512MB
+cpu_ram: 256MB
+gpu_ram: 256MB
+eol: 2015-09-29
+price: US2006$600
+storage: 20GB
+storage_max: 500GB
+gpu_flops: 230 GFLOPS
+gpu_speed: 550MHz
+units: 87.4m
+url: https://en.wikipedia.org/wiki/PlayStation_3
 
 computer: Sony PlayStation TV
 type: console
 manufacturer: Sony
-released: 2013
+released: 2013-11-14
+eol: 2015
 price: US2014$99
-tags: congen8
-ram: 512MB
+ram: 640MB
 storage: 1GB
+storage_max: 64GB
 gpu: PowerVR SGX543MP4+
 gpu_cores: 4
 gpu_ram: 128MB
 display: 720p
 url: https://en.wikipedia.org/wiki/PlayStation_TV
 wifi: 802.11b/g/n
+size: 65x105x13.6mm
+mass: 110g
 
 computer: Sony PlayStation 4
 type: console
 manufacturer: Sony
-released: 2013
+product: PlayStation
+released: 2013-11-15
+eol: 2021-01-05
 price: US2014$400
 units: 117m
-tags: congen8
 ram: 8GB
 ram_speed: GDDR5
 storage: 500GB
@@ -349,6 +412,18 @@ wifi: 802.11n
 computer: Sony PlayStation 5
 type: console
 manufacturer: Sony
+product: PlayStation
+released: 2020-11-19
+units: 60m
+price: US2000$500
+cpu: AMD Zen 2
+cpu_cores: 8
+cpu_speed: 3.5GHz
+ram: 16GB
+storage: 825GB
+display: 8K
+gpu_flops: 10.3TFLOPS
+mass: 3.9kg
 
 computer: Atari C-XXX
 type: console

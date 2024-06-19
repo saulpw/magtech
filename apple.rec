@@ -271,6 +271,7 @@ type: mobile
 manufacturer: Apple
 computer: iPhone 1gen
 type: mobile
+product: iPhone
 released: 2007-06-29
 eol: 2008-07-08
 price: US2007$400
@@ -297,6 +298,7 @@ url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 manufacturer: Apple
 computer: iPhone 3G
 type: mobile
+product: iPhone
 released: 2008-07-11
 eol: 2010-06-07
 price: US2008$200
@@ -366,6 +368,7 @@ type: mobile
 manufacturer: Apple
 computer: iPhone 15
 type: mobile
+product: iPhone
 released: 2023-09-22
 size: 159.9.6x76.7x8.25mm
 mass: 221g
