@@ -195,9 +195,23 @@ battery_life: 20h
 url: https://en.wikipedia.org/wiki/TRS-80_Model_100
 
 manufacturer: Tandy
+model: TRS-80 Color Computer
+type: PC
+product: TRS-80 CoCo
+released: 1983
+price: US1980$399
+eol: 1991
+cpu: 6809E
+cpu_freq: 0.895MHz
+ram: 4KB
+ram_max: 64KB
+audio_bits: 6
+url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
+
+manufacturer: Tandy
 model: TRS-80 Color Computer 2
 type: PC
-product: TRS-80
+product: TRS-80 CoCo
 released: 1983
 price: US1983$159
 cpu: 6809E
@@ -210,7 +224,7 @@ url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 manufacturer: Tandy
 model: TRS-80 Color Computer 3
 type: PC
-product: TRS-80
+product: TRS-80 CoCo
 released: 1986
 price: US1986$219
 cpu: 6809E
