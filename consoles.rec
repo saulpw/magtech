@@ -1,5 +1,5 @@
 
-computer: Game & Watch
+model: Game & Watch
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -13,7 +13,7 @@ disp_type: LCD
 url: https://en.wikipedia.org/wiki/Game_%26_Watch
 url: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fr8w6mdgcas681.jpg
 
-computer: Intellivision
+model: Intellivision
 type: console
 manufacturer: Mattel
 released: 1979
@@ -27,15 +27,15 @@ cpu: GII CP1610
 cpu_bits: 16
 cpu_freq: 2MHz
 
-computer: Color TV Game
+model: Color TV Game
 type: console
 manufacturer: Nintendo
 
-computer: Famicom
+model: Famicom
 type: console
 manufacturer: Nintendo
 
-computer: NES
+model: NES
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -49,11 +49,11 @@ cpu_freq: 1.79MHz
 disp_res: 256x240x5
 ram: 4256
 
-computer: Famicom Disk System
+model: Famicom Disk System
 type: console
 manufacturer: Nintendo
 
-computer: SNES
+model: SNES
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -67,11 +67,11 @@ disp_res: 256x15
 cpu_freq: 3.58 MHz
 cpu_bits: 16
 
-computer: Virtual Boy
+model: Virtual Boy
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo 64
+model: Nintendo 64
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -91,7 +91,7 @@ size: 72.9mmx259.8mmx190.0mm
 mass: 1.10kg
 url: https://en.wikipedia.org/wiki/Nintendo_64
 
-computer: GameCube
+model: GameCube
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -104,7 +104,7 @@ cpu_bits: 32
 ram: 24 MB
 price: US2001$199
 
-computer: Nintendo Wii
+model: Nintendo Wii
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -124,7 +124,7 @@ wifi: 802.11b/g
 size: 157x60x197mm
 mass: 1.22kg
 
-computer: Nintendo Switch
+model: Nintendo Switch
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -137,7 +137,7 @@ cpu_freq: 1.02 GHz
 ram: 4 GB
 cpu_bits: 64
 
-computer: Game Boy
+model: Game Boy
 type: console
 manufacturer: Nintendo
 product: Nintendo handheld
@@ -152,31 +152,31 @@ cpu_ram: 8KB
 gpu_ram: 8KB
 url: https://en.wikipedia.org/wiki/Game_Boy
 
-computer: Game Boy Pocket
+model: Game Boy Pocket
 type: console
 manufacturer: Nintendo
 
-computer: Game Boy Light
+model: Game Boy Light
 type: console
 manufacturer: Nintendo
 
-computer: Game Boy Color
+model: Game Boy Color
 type: console
 manufacturer: Nintendo
 
-computer: Game Boy Advance
+model: Game Boy Advance
 type: console
 manufacturer: Nintendo
 
-computer: Pokemon Mini
+model: Pokemon Mini
 type: console
 manufacturer: Nintendo
 
-computer: Game Boy Advance SP
+model: Game Boy Advance SP
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo DS
+model: Nintendo DS
 type: console
 manufacturer: Nintendo
 product: Nintendo handheld
@@ -190,23 +190,23 @@ cpu_freq: 67 MHz
 cpu_bits: 32
 url: https://en.wikipedia.org/wiki/Nintendo_DS
 
-computer: Game Boy Micro
+model: Game Boy Micro
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo DS Lite
+model: Nintendo DS Lite
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo DSi
+model: Nintendo DSi
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo DSi XL
+model: Nintendo DSi XL
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo 3DS
+model: Nintendo 3DS
 type: console
 manufacturer: Nintendo
 product: Nintendo handheld
@@ -231,53 +231,53 @@ battery_life: 5 hours
 mass: 235g
 size: 134x74x21 mm
 
-computer: New Nintendo 3DS
+model: New Nintendo 3DS
 type: console
 manufacturer: Nintendo
 
-computer: Nintendo 2DS
+model: Nintendo 2DS
 type: console
 manufacturer: Nintendo
 
-computer: Sega SG X000
+model: Sega SG X000
 type: console
 manufacturer: Sega
 
-computer: Sega Master System
+model: Sega Master System
 type: console
 manufacturer: Sega
 
-computer: Sega Genesis Mega Drive
+model: Sega Genesis Mega Drive
 type: console
 manufacturer: Sega
 
-computer: Sega Mega CD
+model: Sega Mega CD
 type: console
 manufacturer: Sega
 
-computer: Sega 32X
+model: Sega 32X
 type: console
 manufacturer: Sega
 
-computer: Sega Saturn
+model: Sega Saturn
 type: console
 manufacturer: Sega
 
-computer: Sega Dreamcast
+model: Sega Dreamcast
 type: console
 manufacturer: Sega
 
-computer: Microsoft Xbox
+model: Microsoft Xbox
 type: console
 product: Xbox
 manufacturer: Microsoft
 
-computer: Microsoft Xbox 360
+model: Microsoft Xbox 360
 type: console
 product: Xbox
 manufacturer: Microsoft
 
-computer: Microsoft Xbox One
+model: Microsoft Xbox One
 type: console
 manufacturer: Microsoft
 product: Xbox
@@ -297,7 +297,7 @@ gpu: AMD Radeon GCN
 wifi: 802.11n
 url: https://en.wikipedia.org/wiki/Xbox_One
 
-computer: Microsoft Xbox Series X
+model: Microsoft Xbox Series X
 type: console
 manufacturer: Microsoft
 product: Xbox
@@ -318,7 +318,7 @@ units: 21m
 wifi: 802.11ac
 url: https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
 
-computer: Sony PlayStation
+model: Sony PlayStation
 type: console
 manufacturer: Sony
 product: PlayStation
@@ -333,7 +333,7 @@ audio_bits: 16
 audio_channels: 24
 url: https://en.wikipedia.org/wiki/PlayStation_(console)
 
-computer: Sony PlayStation 2
+model: Sony PlayStation 2
 type: console
 manufacturer: Sony
 product: PlayStation
@@ -350,7 +350,7 @@ size: .787x.302x.183m
 mass: 2.2kg
 url: https://en.wikipedia.org/wiki/PlayStation_2
 
-computer: Sony PlayStation 3
+model: Sony PlayStation 3
 type: console
 manufacturer: Sony
 product: PlayStation
@@ -367,7 +367,7 @@ gpu_speed: 550MHz
 units: 87.4m
 url: https://en.wikipedia.org/wiki/PlayStation_3
 
-computer: Sony PlayStation TV
+model: Sony PlayStation TV
 type: console
 manufacturer: Sony
 released: 2013-11-14
@@ -385,7 +385,7 @@ wifi: 802.11b/g/n
 size: 65x105x13.6mm
 mass: 110g
 
-computer: Sony PlayStation 4
+model: Sony PlayStation 4
 type: console
 manufacturer: Sony
 product: PlayStation
@@ -403,7 +403,7 @@ disp_res: 1080p
 url: https://en.wikipedia.org/wiki/PlayStation_4
 wifi: 802.11n
 
-computer: Sony PlayStation 5
+model: Sony PlayStation 5
 type: console
 manufacturer: Sony
 product: PlayStation
@@ -419,62 +419,62 @@ disp_res: 8K
 gpu_flops: 10.3TFLOPS
 mass: 3.9kg
 
-computer: Atari C-XXX
+model: Atari C-XXX
 type: console
 manufacturer: Atari
 
-computer: Atari 2600
+model: Atari 2600
 type: console
 manufacturer: Atari
 
-computer: Atari 5200
+model: Atari 5200
 type: console
 manufacturer: Atari
 
-computer: Atari 7800
+model: Atari 7800
 type: console
 manufacturer: Atari
 
-computer: Atari XEGS
+model: Atari XEGS
 type: console
 manufacturer: Atari
 
-computer: Atari Jaguar
+model: Atari Jaguar
 type: console
 manufacturer: Atari
 
-computer: Atari Jaguar CD
+model: Atari Jaguar CD
 type: console
 manufacturer: Atari
 
-computer: TurboGrafx-16
+model: TurboGrafx-16
 type: console
 manufacturer: NEC
 
-computer: TurboDuo
+model: TurboDuo
 type: console
 manufacturer: NEC
 
-computer: PC-FX
+model: PC-FX
 type: console
 manufacturer: NEC
 
-computer: TurboExpress
+model: TurboExpress
 type: console
 manufacturer: NEC
 
-computer: Magnavox Odyssey
+model: Magnavox Odyssey
 type: console
 manufacturer: Philips Magnavox
 
-computer: Philips Odyssey
+model: Philips Odyssey
 type: console
 manufacturer: Philips Magnavox
 
-computer: Magnavox Odyssey 2
+model: Magnavox Odyssey 2
 type: console
 manufacturer: Philips Magnavox
 
-computer: CD-i
+model: CD-i
 type: console
 manufacturer: Philips Magnavox

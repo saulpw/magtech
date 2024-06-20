@@ -1,10 +1,10 @@
 # magnitude of computer technology, 1950-2025
 
-an open source dataset of computer performance from 1950-2025.
+an open source dataset of computer performance from 1940-2025.
 
 a static website with interactive plot.
 
-See it at magtech.pw.
+See it at [magtech.saul.pw](https://magtech.saul.pw).
 
 ## pillars
 
@@ -26,7 +26,7 @@ Notes on units:
 
 # Basic metadata
 
-- **computer**: common, distinct name of computer
+- **model**: common, distinct name of computer
 - **manufacturer**: company that owned/financed/developed product and is associated with the product in the marketplace (not necessarily the literal manufacturer). e.g., "Apple", "Tandy"
 - **type**: mainframe, super, PC, console, mobile, cloud
 - **product**: product line (to draw a line through); e.g. "iPhone", "TRS-80"

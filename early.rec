@@ -1,6 +1,6 @@
 
 manufacturer: IBM
-computer: Harvard Mark I
+model: Harvard Mark I
 type: academic
 released: 1944
 cpu_flops: 3
@@ -12,7 +12,7 @@ mass: 4284kg
 url: https://en.wikipedia.org/wiki/Harvard_Mark_I
 
 manufacturer: Harvard
-computer: Harvard Mark II
+model: Harvard Mark II
 type: academic
 released: 1947
 mass: 23000kg
@@ -25,7 +25,7 @@ url: https://museum.ipsj.or.jp/en/computer/dawn/0009.html
 url: https://en.wikipedia.org/wiki/Harvard_Mark_II
 
 manufacturer: Harvard
-computer: Harvard Mark III
+model: Harvard Mark III
 type: academic
 released: 1950
 mass: 10000kg
@@ -36,13 +36,13 @@ ram_speed: 9500bps
 url: https://en.wikipedia.org/wiki/Harvard_Mark_III
 
 manufacturer: US Army
-computer: ENIAC
+model: ENIAC
 type: academic
 released: 1945
 cpu_flops: 500
 
 manufacturer: University of Manchester
-computer: Manchester Baby
+model: Manchester Baby
 type: academic
 released: 1948
 ram: 128
@@ -50,7 +50,7 @@ cpu_ops: 1100
 url: https://en.wikipedia.org/wiki/Manchester_Baby
 
 manufacturer: US National Bureau of Standards
-computer: SWAC
+model: SWAC
 type: mainframe
 released: 1950
 cpu_flops: 15625
@@ -58,7 +58,7 @@ ram: 1184
 url: https://en.wikipedia.org/wiki/SWAC_(computer)
 
 manufacturer: Ferranti Ltd
-computer: Ferranti Mark 1
+model: Ferranti Mark 1
 type: mainframe
 released: 1951
 ram: 1280
@@ -66,7 +66,7 @@ storage: 81920
 url: https://en.wikipedia.org/wiki/Ferranti_Mark_1
 
 manufacturer: Remington Rand
-computer: UNIVAC
+model: UNIVAC
 type: mainframe
 size: 4.3x2.4x2.6m
 mass: 7600kg
@@ -75,7 +75,7 @@ units: 46
 url: https://en.wikipedia.org/wiki/UNIVAC_I
 
 manufacturer: IBM
-computer: IBM 650
+model: IBM 650
 type: mainframe
 released: 1954
 ram: 9kB
@@ -87,7 +87,7 @@ price: US1959$150000
 url: https://en.wikipedia.org/wiki/IBM_650
 
 manufacturer: IBM
-computer: IBM 1401
+model: IBM 1401
 type: mainframe
 released: 1959
 eol: 1971
@@ -98,7 +98,7 @@ units: 12000
 url: https://en.wikipedia.org/wiki/IBM_1401
 
 manufacturer: IBM
-computer: IBM System/360 Model 30
+model: IBM System/360 Model 30
 type: mainframe
 #product: IBM System/360
 released: 1965
@@ -114,7 +114,7 @@ mass: 771kg
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_30
 
 manufacturer: IBM
-computer: IBM System/360 Model 22
+model: IBM System/360 Model 22
 type: mainframe
 #product: IBM System/360
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_22
@@ -126,7 +126,7 @@ ram_max: 32KB
 mass: 680kg
 
 manufacturer: IBM
-computer: IBM System/360 Model 195
+model: IBM System/360 Model 195
 type: mainframe
 #product: IBM System/360
 url: https://en.wikipedia.org/wiki/IBM_System/360_Model_195
@@ -140,7 +140,7 @@ cpu_freq: 18MHz
 cpu_cores: 7
 
 manufacturer: Control Data Corp
-computer: CDC 1604
+model: CDC 1604
 type: mainframe
 released: 1960
 units: 50
@@ -155,7 +155,7 @@ cpu_ops: 100k
 url: https://en.wikipedia.org/wiki/CDC_1604
 
 manufacturer: Control Data Corp
-computer: CDC 7600
+model: CDC 7600
 type: mainframe
 released: 1967
 price: US1967$5m
@@ -169,7 +169,7 @@ units: 75
 url: https://en.wikipedia.org/wiki/CDC_7600
 
 manufacturer: Raytheon
-computer: Apollo Guidance Computer
+model: Apollo Guidance Computer
 type: embedded
 url: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
 released: 1966

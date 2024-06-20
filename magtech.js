@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 hoverinfo: "text",
                 hovertemplate: "%{text}",
-                text: data.map(p => p.computer) // hover text
+                text: data.map(p => p.model) // hover text
             })
 
             var layout = {

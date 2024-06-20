@@ -2,19 +2,19 @@
 #manufacturer: Compaq
 
 manufacturer: Dell
-computer: OptiPlex 4xx LN
+model: OptiPlex 4xx LN
 type: PC
 released: 1995
 url: https://en.wikipedia.org/wiki/Dell_OptiPlex
 
 manufacturer: IBM
-computer: PC 5150
+model: PC 5150
 type: PC
 url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
 released: 1981
 
 manufacturer: IBM
-computer: PCjr
+model: PCjr
 type: PC
 
 #manufacturer: Lenovo
@@ -25,7 +25,7 @@ type: PC
 
 #manufacturer: Acer
 
-computer: Atari 400
+model: Atari 400
 type: PC
 manufacturer: Atari
 product: Atari computer
@@ -38,7 +38,7 @@ ram: 8kB
 disp_res: 384x480x8
 url: https://en.wikipedia.org/wiki/Atari_8-bit_computers
 
-computer: Atari 800
+model: Atari 800
 type: PC
 manufacturer: Atari
 product: Atari computer
@@ -55,68 +55,68 @@ storage_type: extFDD
 
 
 manufacturer: Atari
-computer: Atari 1200XL
+model: Atari 1200XL
 type: PC
 product: Atari computer
 
 manufacturer: Atari
-computer: Atari 600XL
+model: Atari 600XL
 type: PC
 product: Atari computer
 
 manufacturer: Atari
-computer: Atari 1200XL
+model: Atari 1200XL
 type: PC
 product: Atari computer
 
 manufacturer: Atari
-computer: Atari ST
+model: Atari ST
 type: PC
 product: Atari computer
 
 
 manufacturer: Commodore
-computer: PET
+model: PET
 type: PC
 
 manufacturer: Commodore
-computer: VIC-20 64
+model: VIC-20 64
 type: PC
 
 manufacturer: Commodore
-computer: Commodore 64
+model: Commodore 64
 type: PC
 
 manufacturer: Commodore
-computer: Commodore 128
+model: Commodore 128
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 2000
+model: Amiga 2000
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 3000
+model: Amiga 3000
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 4000
+model: Amiga 4000
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 4000T
+model: Amiga 4000T
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 600
+model: Amiga 600
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 1200
+model: Amiga 1200
 type: PC
 
 manufacturer: Commodore
-computer: Amiga 1000
+model: Amiga 1000
 type: PC
 released: 1985
 price: US1985$1285
@@ -136,7 +136,7 @@ mass: 5.9kg
 url: https://en.wikipedia.org/wiki/Amiga_1000
 
 manufacturer: Tandy
-computer: TRS-80 Model I
+model: TRS-80 Model I
 type: PC
 product: TRS-80
 released: 1977-08-03
@@ -152,7 +152,7 @@ storage_bandwidth: 30Bps
 url: https://en.wikipedia.org/wiki/TRS-80
 
 manufacturer: Tandy
-computer: TRS-80 Model III
+model: TRS-80 Model III
 type: PC
 product: TRS-80
 released: 1980-07-26
@@ -164,7 +164,7 @@ storage_max: 360KB
 url: https://en.wikipedia.org/wiki/TRS-80
 
 manufacturer: Tandy
-computer: TRS-80 Model IV
+model: TRS-80 Model IV
 type: PC
 product: TRS-80
 released: 1983-04
@@ -179,7 +179,7 @@ eol: 1991
 url: https://en.wikipedia.org/wiki/TRS-80_Model_4
 
 manufacturer: Tandy
-computer: TRS-80 Model 100
+model: TRS-80 Model 100
 type: PC
 product: TRS-80
 released: 1983-04-26
@@ -195,7 +195,7 @@ battery_life: 20h
 url: https://en.wikipedia.org/wiki/TRS-80_Model_100
 
 manufacturer: Tandy
-computer: TRS-80 Color Computer 2
+model: TRS-80 Color Computer 2
 type: PC
 product: TRS-80
 released: 1983
@@ -208,7 +208,7 @@ audio_bits: 6
 url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy
-computer: TRS-80 Color Computer 3
+model: TRS-80 Color Computer 3
 type: PC
 product: TRS-80
 released: 1986
@@ -222,18 +222,18 @@ disp_res: 640x225x6
 url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy
-computer: Tandy 2000
+model: Tandy 2000
 type: PC
 
 manufacturer: Tandy
-computer: Tandy 1000
+model: Tandy 1000
 type: PC
 
-computer: ZX81
+model: ZX81
 type: PC
 manufacturer: NeXT
 
 manufacturer: Altair
-computer: Altair 8800
+model: Altair 8800
 type: PC
 released: 1975

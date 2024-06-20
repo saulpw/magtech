@@ -1,6 +1,6 @@
 
 manufacturer: Cray Research
-computer: Cray-1
+model: Cray-1
 type: supercomputer
 product: Cray
 released: 1975
@@ -17,7 +17,7 @@ storage: 303MB
 url: https://en.wikipedia.org/wiki/Cray-1
 
 manufacturer: Cray Research
-computer: Cray X-MP
+model: Cray X-MP
 type: supercomputer
 product: Cray
 released: 1982
@@ -35,7 +35,7 @@ flops: 800MFLOPS
 url: https://en.wikipedia.org/wiki/Cray_X-MP
 
 manufacturer: Cray Research
-computer: Cray-2
+model: Cray-2
 type: supercomputer
 product: Cray
 released: 1985
@@ -45,7 +45,7 @@ flops: 19.GFLOPS
 url: https://en.wikipedia.org/wiki/Cray-2
 
 manufacturer: Cray Research
-computer: Cray Y-MP Model D
+model: Cray Y-MP Model D
 type: supercomputer
 product: Cray
 released: 1988
@@ -60,7 +60,7 @@ flops: 2.144GFLOPS
 url: https://en.wikipedia.org/wiki/Cray_Y-MP
 
 manufacturer: Cray Research
-computer: Cray Y-MP C90
+model: Cray Y-MP C90
 type: supercomputer
 product: Cray
 released: 1991
@@ -74,7 +74,7 @@ storage: 4GB
 url: https://en.wikipedia.org/wiki/Cray_C90
 
 manufacturer: Cray Research
-computer: Cray T90
+model: Cray T90
 type: supercomputer
 product: Cray
 released: 1995
@@ -90,7 +90,7 @@ ram_max: 8GB
 url: https://en.wikipedia.org/wiki/Cray_T90
 
 manufacturer: Cray Research
-computer: Cray X1
+model: Cray X1
 type: supercomputer
 product: Cray
 released: 2003

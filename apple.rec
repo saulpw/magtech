@@ -1,188 +1,188 @@
 
 manufacturer: Apple
-computer: Apple I
+model: Apple I
 type: PC
 
 manufacturer: Apple
-computer: Apple II
+model: Apple II
 type: PC
 
 manufacturer: Apple
-computer: Apple II+
+model: Apple II+
 type: PC
 
 manufacturer: Apple
-computer: Apple IIe
+model: Apple IIe
 type: PC
 
 manufacturer: Apple
-computer: Apple IIc
+model: Apple IIc
 type: PC
 
 manufacturer: Apple
-computer: Apple IIe Enhanced
+model: Apple IIe Enhanced
 type: PC
 
 manufacturer: Apple
-computer: Apple IIGS
+model: Apple IIGS
 type: PC
 
 manufacturer: Apple
-computer: Apple IIc+
+model: Apple IIc+
 type: PC
 
 manufacturer: Apple
-computer: Apple IIGS (1MB, ROM 3)
+model: Apple IIGS (1MB, ROM 3)
 type: PC
 
 manufacturer: Apple
-computer: Macintosh 128k
+model: Macintosh 128k
 type: PC
 
 manufacturer: Apple
-computer: Macintosh 512k
+model: Macintosh 512k
 type: PC
 
 manufacturer: Apple
-computer: Macintosh Plus
+model: Macintosh Plus
 type: PC
 
 manufacturer: Apple
-computer: Macintosh SE
+model: Macintosh SE
 type: PC
 
 manufacturer: Apple
-computer: Macintosh SE/30
+model: Macintosh SE/30
 type: PC
 
 manufacturer: Apple
-computer: Macintosh II
+model: Macintosh II
 type: PC
-#computer: Macintosh IIx
-#computer: Macintosh IIcx
-#computer: Macintosh IIci
-#computer: Macintosh IIfx
-#computer: Macintosh IIvi
-#computer: Macintosh IIvx
+#model: Macintosh IIx
+#model: Macintosh IIcx
+#model: Macintosh IIci
+#model: Macintosh IIfx
+#model: Macintosh IIvi
+#model: Macintosh IIvx
 
 manufacturer: Apple
-computer: Macintosh IIsi
-type: PC
-
-manufacturer: Apple
-computer: Macintosh Portable
+model: Macintosh IIsi
 type: PC
 
 manufacturer: Apple
-computer: Macintosh LC
-type: PC
-#computer: Macintosh LC II
-#computer: Macintosh LC III
-#computer: Macintosh LC III+
-#computer: Macintosh LC 520
-#computer: Macintosh LC 550
-#computer: Macintosh LC 575
-
-manufacturer: Apple
-computer: Macintosh LC 630
+model: Macintosh Portable
 type: PC
 
 manufacturer: Apple
-computer: Macintosh Classic
+model: Macintosh LC
 type: PC
-#computer: Macintosh Color Classic
-#computer: Macintosh Color Classic II
+#model: Macintosh LC II
+#model: Macintosh LC III
+#model: Macintosh LC III+
+#model: Macintosh LC 520
+#model: Macintosh LC 550
+#model: Macintosh LC 575
 
 manufacturer: Apple
-computer: Macintosh Quadra 700/900
-type: PC
-#computer: Macintosh Quadra 950
-#computer: Macintosh Centris/Quadra 610
-#computer: Macintosh Centris/Quadra 650
-#computer: Quadra 800
-#computer: Macintosh Centris/Quadra 660AV
-#computer: Quadra 840AV
-#computer: Quadra 605/610/650
-#computer: Quadra 630
-
-manufacturer: Apple
-computer: PowerBook 165
-type: PC
-#computer: PowerBook 100/140/170
-#computer: PowerBook 145
-#computer: PowerBook 160
-#computer: PowerBook 180
-#computer: PowerBook 165c
-#computer: PowerBook 145b
-#computer: PowerBook 180c
-#computer: PowerBook 520c/540c/550
-
-manufacturer: Apple
-#computer: PowerBook Duo 210
-#computer: PowerBook Duo 230
-#computer: PowerBook Duo 250
-#computer: PowerBook Duo 270c
-#computer: PowerBook Duo 280/280c
-#computer: PowerBook 150
-#computer: PowerBook G3
-#computer: PowerBook
-computer: PowerBook G4
+model: Macintosh LC 630
 type: PC
 
 manufacturer: Apple
-#computer: Power Macintosh 6100/7100/8100
-#computer: Power Macintosh 5400
-computer: Power Macintosh G3
+model: Macintosh Classic
+type: PC
+#model: Macintosh Color Classic
+#model: Macintosh Color Classic II
+
+manufacturer: Apple
+model: Macintosh Quadra 700/900
+type: PC
+#model: Macintosh Quadra 950
+#model: Macintosh Centris/Quadra 610
+#model: Macintosh Centris/Quadra 650
+#model: Quadra 800
+#model: Macintosh Centris/Quadra 660AV
+#model: Quadra 840AV
+#model: Quadra 605/610/650
+#model: Quadra 630
+
+manufacturer: Apple
+model: PowerBook 165
+type: PC
+#model: PowerBook 100/140/170
+#model: PowerBook 145
+#model: PowerBook 160
+#model: PowerBook 180
+#model: PowerBook 165c
+#model: PowerBook 145b
+#model: PowerBook 180c
+#model: PowerBook 520c/540c/550
+
+manufacturer: Apple
+#model: PowerBook Duo 210
+#model: PowerBook Duo 230
+#model: PowerBook Duo 250
+#model: PowerBook Duo 270c
+#model: PowerBook Duo 280/280c
+#model: PowerBook 150
+#model: PowerBook G3
+#model: PowerBook
+model: PowerBook G4
 type: PC
 
 manufacturer: Apple
-computer: Workgroup Server 6150/8150/9150
+#model: Power Macintosh 6100/7100/8100
+#model: Power Macintosh 5400
+model: Power Macintosh G3
+type: PC
+
+manufacturer: Apple
+model: Workgroup Server 6150/8150/9150
 type: server
 
 manufacturer: Apple
-#computer: Macintosh Server G3
-#computer: Macintosh Server G4
-computer: Macintosh Server G4 MDD
+#model: Macintosh Server G3
+#model: Macintosh Server G4
+model: Macintosh Server G4 MDD
 type: server
 
-#computer: eMac
-#computer: PowerMac G4 Cube
-#computer: Power Macintosh G4 MDD
-#computer: Power Mac G5
-computer: Power Macintosh G5 FX
+#model: eMac
+#model: PowerMac G4 Cube
+#model: Power Macintosh G4 MDD
+#model: Power Mac G5
+model: Power Macintosh G5 FX
 manufacturer: Apple
 type: PC
 
-computer: PowerMac G4 Cube
+model: PowerMac G4 Cube
 manufacturer: Apple
 type: PC
 
-computer: Power Macintosh G4 MDD
+model: Power Macintosh G4 MDD
 manufacturer: Apple
 type: PC
 
-computer: Power Mac G5
+model: Power Mac G5
 manufacturer: Apple
 type: PC
 
-computer: Power Macintosh G5 FX
+model: Power Macintosh G5 FX
 manufacturer: Apple
 type: PC
 
-computer: iBook (FireWire)
+model: iBook (FireWire)
 manufacturer: Apple
 type: PC
 
-computer: iBook G3
+model: iBook G3
 manufacturer: Apple
 type: PC
 
-computer: iBook G4
+model: iBook G4
 manufacturer: Apple
 type: PC
 
 manufacturer: Apple
-computer: iPod 1gen
+model: iPod 1gen
 type: mobile
 released: 2001
 eol: 2003
@@ -195,22 +195,22 @@ cpu_cores: 2
 disp_res: 160x128x1
 price: US$399
 
-#computer: iPod 2gen
-#computer: iPod 3gen
-#computer: iPod 4gen
-#computer: iPod 5gen
-#computer: iPod Classic 6gen
-#computer: iPod Mini 1gen
-#computer: iPod Mini 2gen
-#computer: iPod Shuffle 1gen
-#computer: iPod Shuffle 2gen
-#computer: iPod Nano 1gen
-#computer: iPod Nano 2gen
-#computer: iPod Nano 3gen
-#computer: iPod Touch 1gen
+#model: iPod 2gen
+#model: iPod 3gen
+#model: iPod 4gen
+#model: iPod 5gen
+#model: iPod Classic 6gen
+#model: iPod Mini 1gen
+#model: iPod Mini 2gen
+#model: iPod Shuffle 1gen
+#model: iPod Shuffle 2gen
+#model: iPod Nano 1gen
+#model: iPod Nano 2gen
+#model: iPod Nano 3gen
+#model: iPod Touch 1gen
 
 manufacturer: Apple
-computer: iPod Touch 7gen
+model: iPod Touch 7gen
 type: mobile
 released: 2019-05-28
 eol: 2022-05-10
@@ -229,47 +229,47 @@ price: US2022$199
 url: https://everymac.com/systems/apple/ipod/specs/ipod-touch-7th-gen-a2178-2019-specs.html
 
 manufacturer: Apple
-#computer: iMac
-#computer: iMac G3
-#computer: iMac G4
-computer: iMac G5
+#model: iMac
+#model: iMac G3
+#model: iMac G4
+model: iMac G5
 type: PC
 
 manufacturer: Apple
-computer: MacBook
+model: MacBook
 type: PC
 
 manufacturer: Apple
-computer: MacBook Pro
+model: MacBook Pro
 type: PC
 
 manufacturer: Apple
-computer: MacBook Air
+model: MacBook Air
 type: PC
 
 manufacturer: Apple
-computer: Mac Pro
+model: Mac Pro
 type: PC
 
 manufacturer: Apple
-computer: Mac Mini
+model: Mac Mini
 type: PC
 
 manufacturer: Apple
-computer: iPad
+model: iPad
 type: mobile
-#computer: iPad Mini
-#computer: iPad Air
-#computer: iPad Air 2
-#computer: iPad Mini 2
-#computer: iPad Pro
+#model: iPad Mini
+#model: iPad Air
+#model: iPad Air 2
+#model: iPad Mini 2
+#model: iPad Pro
 
 manufacturer: Apple
-computer: Apple Watch
+model: Apple Watch
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 1gen
+model: iPhone 1gen
 type: mobile
 product: iPhone
 released: 2007-06-29
@@ -296,7 +296,7 @@ cell_bandwidth: 3.6Mbps
 url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 
 manufacturer: Apple
-computer: iPhone 3G
+model: iPhone 3G
 type: mobile
 product: iPhone
 released: 2008-07-11
@@ -322,51 +322,51 @@ cell_bandwidth: 3.6Mbps
 url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 
 manufacturer: Apple
-computer: iPhone 4
+model: iPhone 4
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 5
+model: iPhone 5
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 6
+model: iPhone 6
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 7
+model: iPhone 7
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 8
+model: iPhone 8
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 9
+model: iPhone 9
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 10
+model: iPhone 10
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 11
+model: iPhone 11
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 12
+model: iPhone 12
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 13
+model: iPhone 13
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 14
+model: iPhone 14
 type: mobile
 
 manufacturer: Apple
-computer: iPhone 15
+model: iPhone 15
 type: mobile
 product: iPhone
 released: 2023-09-22
