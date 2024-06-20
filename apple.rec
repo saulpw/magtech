@@ -190,9 +190,9 @@ battery_life: 10h
 storage: 5GB
 storage_max: 10GB
 ram: 32MB
-cpu_speed: 90MHz
+cpu_freq: 90MHz
 cpu_cores: 2
-display: 160x128x1
+disp_res: 160x128x1
 price: US$399
 
 #computer: iPod 2gen
@@ -216,12 +216,12 @@ released: 2019-05-28
 eol: 2022-05-10
 battery_life: 40h
 cpu_cores: 2
-cpu_speed: 1.6GHz
+cpu_freq: 1.6GHz
 cpu: Apple A10 Fusion
 ram: 2GB
 storage: 32GB
 storage_max: 256GB
-display: 1136x640
+disp_res: 1136x640
 wifi: a/b/c/g/n/ac
 camera: 8MP
 mass: 88g
@@ -280,19 +280,19 @@ mass: 135g
 size: 115x61x11.6mm
 cpu: Samsung RISC ARM 1176JZ(F)-S v1.0
 cpu_bits: 32
-cpu_speed: 412 MHz
+cpu_freq: 412 MHz
 gpu: PowerVR MBX Lite 3D GPU
 ram: 128MB
 storage: 4GB
 storage_type: flash
 storage_max: 16GB
 battery: 1400mAh
-display: 480x320x262144
-display_type: LCD
+disp_res: 480x320x18
+disp_type: LCD
 sound_rate: 20kHz
 camera: 2.0MP
 wifi: 802.11b/g
-bandwidth: 3.6Mbps
+cell_bandwidth: 3.6Mbps
 url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 
 manufacturer: Apple
@@ -306,19 +306,19 @@ mass: 135g
 size: 115x61x11.6mm
 cpu: Samsung RISC ARM 1176JZ(F)-S v1.0
 cpu_bits: 32
-cpu_speed: 412 MHz
+cpu_freq: 412 MHz
 gpu: PowerVR MBX Lite 3D GPU
 ram: 128MB
 storage: 8GB
 storage_type: flash
 storage_max: 16GB
 battery: 1150mAh
-display: 480x320x262144
-display_type: LCD
+disp_res: 480x320x18
+disp_type: LCD
 sound_rate: 20kHz
 camera: 2.0MP
 wifi: 802.11b/g
-bandwidth: 3.6Mbps
+cell_bandwidth: 3.6Mbps
 url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 
 manufacturer: Apple
@@ -372,13 +372,13 @@ product: iPhone
 released: 2023-09-22
 size: 159.9.6x76.7x8.25mm
 mass: 221g
-cpu_speed: 3.78GHz
+cpu_freq: 3.78GHz
 cpu_cores: 6
 gpu_flops: 2.147TFLOPS
 ram: 8GB
 storage: 256GB
 storage_max: 1TB
-display: 2796x1290
+disp_res: 2796x1290
 display_rate: 120Hz
 camera: 48MP
 wifi: 802.11ax

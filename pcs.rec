@@ -33,9 +33,9 @@ price: US1979$550
 released: 1979
 units: 4m
 cpu: MOS 6502
-cpu_speed: 1.79MHz
-ram: 8192
-display: 384x480x256
+cpu_freq: 1.79MHz
+ram: 8kB
+disp_res: 384x480x8
 url: https://en.wikipedia.org/wiki/Atari_8-bit_computers
 
 computer: Atari 800
@@ -43,14 +43,13 @@ type: PC
 manufacturer: Atari
 product: Atari computer
 cpu: MOS 6502
-cpu_speed: 1.8MHz
+cpu_freq: 1.8MHz
 ram: 8kB
 ram_max: 48kB
 released: 1979
 price: US1979$1000
 url: https://oldcomputers.net/atari800.html
-res_text: 24x40
-res: 320x192
+disp_res: 320x192
 storage: 90000
 storage_type: extFDD
 
@@ -121,15 +120,15 @@ computer: Amiga 1000
 type: PC
 released: 1985
 price: US1985$1285
-ram: 256000
+ram: 256kB
 cpu: 68000
 gpu: OCS
-cpu_speed: 7MHz
-graphics: 640x512x16
-graphics: 320x256x4096
-sound_bits: 8
-sound_channels: 4
-sound_rate: 28kHz
+cpu_freq: 7MHz
+disp_res: 640x512x16
+disp_res: 320x256x12
+audio_bits: 8
+audio_channels: 4
+audio_rate: 28kHz
 storage: 880000
 storage_type: 3.5 FDD
 size: 451x108x330mm
@@ -146,7 +145,7 @@ eol: 1981-01
 units: 100k
 ram: 4kB
 ram_max: 48kB
-res_char: 64x16
+disp_res_char: 64x16
 cpu: Zilog Z80
 cpu_freq: 1.774MHz
 storage_bandwidth: 30Bps
@@ -171,7 +170,7 @@ product: TRS-80
 released: 1983-04
 cpu: Z80A
 cpu_freq: 4MHz
-display: 640x240
+disp_res: 640x240
 ram: 64KB
 ram_max: 128KB
 price: US1983$1700
@@ -189,7 +188,7 @@ units: 6m
 cpu: Oki 80C85
 cpu_freq: 2.4MHz
 ram: 32KB
-display: 240x64
+disp_res: 240x64
 size: 300x215x50mm
 mass: 1.4kg
 battery_life: 20h
@@ -205,7 +204,7 @@ cpu: 6809E
 cpu_freq: 0.895MHz
 ram: 16KB
 ram_max: 64KB
-sound_bits: 6
+audio_bits: 6
 url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy
@@ -218,8 +217,8 @@ cpu: 6809E
 cpu_freq: 0.895MHz
 ram: 128KB
 ram_max: 512KB
-sound_bits: 6
-display: 640x225x64
+audio_bits: 6
+disp_res: 640x225x6
 url: https://en.wikipedia.org/wiki/TRS-80_Color_Computer
 
 manufacturer: Tandy

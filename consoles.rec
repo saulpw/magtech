@@ -6,11 +6,10 @@ product: Nintendo
 released: 1980
 units: 43.4m
 cpu: Sharp SM5xx
-cpu_speed:
 cpu_bits: 4
 rom: 1792
 ram: 256
-screen: LCD
+disp_type: LCD
 url: https://en.wikipedia.org/wiki/Game_%26_Watch
 url: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fr8w6mdgcas681.jpg
 
@@ -23,11 +22,10 @@ units: 5m
 price: US1979$275
 ram: 1456
 rom: 7168
-resolution: 159x96
-colors: 16
+disp_res: 159x96x4
 cpu: GII CP1610
 cpu_bits: 16
-cpu_speed: 2MHz
+cpu_freq: 2MHz
 
 computer: Color TV Game
 type: console
@@ -47,8 +45,8 @@ url: https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
 price: US1985$179
 units: 61.91m
 cpu: Ricoh 2A03
-cpu_speed: 1.79MHz
-display: 256x240x25
+cpu_freq: 1.79MHz
+disp_res: 256x240x5
 ram: 4256
 
 computer: Famicom Disk System
@@ -65,8 +63,8 @@ url: https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System
 units: 40.1m
 cpu: Ricoh 5A22
 ram: 128 KB
-display: 256 × 15
-cpu_speed: 3.58 MHz
+disp_res: 256x15
+cpu_freq: 3.58 MHz
 cpu_bits: 16
 
 computer: Virtual Boy
@@ -80,15 +78,15 @@ product: Nintendo
 released: 1996
 units: 32.93m
 cpu_bits: 64
-cpu_speed: 93.75MHz
+cpu_freq: 93.75MHz
 cpu: NEC VR4300
 ram: 4MB
 ram_max: 8MB
 storage: 4MB
 storage_max: 64MB
-sound_bits: 16
-sound_rate: 44.1kHz
-sound_channels: 2
+audio_bits: 16
+audio_rate: 44.1kHz
+audio_channels: 2
 size: 72.9mmx259.8mmx190.0mm
 mass: 1.10kg
 url: https://en.wikipedia.org/wiki/Nintendo_64
@@ -101,7 +99,7 @@ url: https://en.wikipedia.org/wiki/GameCube
 units: 21.74m
 released: 2001
 cpu: IBM PowerPC 750CXe Gekko
-cpu_speed: 486 MHz
+cpu_freq: 486 MHz
 cpu_bits: 32
 ram: 24 MB
 price: US2001$199
@@ -114,13 +112,12 @@ released: 2006
 price: US2006$250
 units: 101.63m
 ram: 88MB
-ram_speed: 2.7GBps
 storage: 512MB
 storage_type: NAND flash
 cpu: IBM PowerPC Broadway
 cpu_bits: 32
 cpu_process: 90nm
-cpu_speed: 729MHz
+cpu_freq: 729MHz
 gpu: ATI Hollywood
 gpu_speed: 243MHz
 wifi: 802.11b/g
@@ -131,12 +128,12 @@ computer: Nintendo Switch
 type: console
 manufacturer: Nintendo
 product: Nintendo
-url: https://en.wikipedia.org/wiki/Nintendo_Switchhttps://en.wikipedia.org/wiki/Game_Boy
+url: https://en.wikipedia.org/wiki/Nintendo_Switch
 units: 141.32m
 price: US2017$300
 released: 2017
 cpu:  ARM 4 Cortex-A57 cores
-cpu_speed: 1.02 GHz
+cpu_freq: 1.02 GHz
 ram: 4 GB
 cpu_bits: 64
 
@@ -219,11 +216,12 @@ price: US2011$250
 units: 76000000
 cpu_cores: 2
 cpu: ARM11 MPCore
-cpu_speed: 268MHz
+cpu_freq: 268MHz
 ram: 128MB
 storage: 4GB
 storage_type: eMMC
 display: 2x TN LCD
+disp_type: LCD
 gpu: DMP PICA200
 gpu_speed: 268MHz
 camera: 0.3MP
@@ -287,12 +285,11 @@ product: Xbox
 units: 58m
 price: US2013$500
 cpu: Custom AMD
-cpu_speed: 1.75GHz
+cpu_freq: 1.75GHz
 cpu_cores: 8
 ram: 8GB
-ram_speed: DDR3
 storage: 500GB
-display: 1080p
+disp_res: 1080p
 gpu_speed: 853MHz
 gpu_flops: 1.3 TFLOPS
 gpu_flops: 6.0 TFLOPS
@@ -308,18 +305,16 @@ product: Xbox
 cpu_bits: 64
 cpu: Custom AMD 8-core Zen 2
 cpu_cores: 8
-cpu_speed: 3.6GHz
+cpu_freq: 3.6GHz
 ram: 16GB
-ram_speed: DDR4
 storage: 1TB
-display: 8K
+disp_res: 8K
 gpu: Custom AMD Radeon RDNA 2 architecture
 gpu_cores: 52
 gpu_speed: 1.825 GHz
 gpu_flops: 12.16 TFLOPS
 price: US2020$500
-units: 21000000
-bandwidth: 1.1 Gbps
+units: 21m
 wifi: 802.11ac
 url: https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
 
@@ -332,10 +327,10 @@ eol: 2006-03-23
 price: US1994$299
 units: 102.49m
 cpu: R3000
-cpu_speed: 33.8688MHz
+cpu_freq: 33.8688MHz
 ram: 3MB
-sound_bits: 16
-sound_channels: 24
+audio_bits: 16
+audio_channels: 24
 url: https://en.wikipedia.org/wiki/PlayStation_(console)
 
 computer: Sony PlayStation 2
@@ -347,10 +342,10 @@ price: US2000$299
 eol: 2013-01-04
 units: 155m
 cpu: MIPS R5900 Emotion Engine
-cpu_speed: 299MHz
+cpu_freq: 299MHz
 ram: 36MB
 storage: 8MB
-sound_rate: 48kHz
+audio_rate: 48kHz
 size: .787x.302x.183m
 mass: 2.2kg
 url: https://en.wikipedia.org/wiki/PlayStation_2
@@ -384,7 +379,7 @@ storage_max: 64GB
 gpu: PowerVR SGX543MP4+
 gpu_cores: 4
 gpu_ram: 128MB
-display: 720p
+disp_res: 720p
 url: https://en.wikipedia.org/wiki/PlayStation_TV
 wifi: 802.11b/g/n
 size: 65x105x13.6mm
@@ -399,13 +394,12 @@ eol: 2021-01-05
 price: US2014$400
 units: 117m
 ram: 8GB
-ram_speed: GDDR5
 storage: 500GB
 gpu: Custom AMD GCN
 gpu_cores: 18
 gpu_speed: 800 MHz
 gpu_flops: 1.84 TFLOPS
-display: 1080p
+disp_res: 1080p
 url: https://en.wikipedia.org/wiki/PlayStation_4
 wifi: 802.11n
 
@@ -418,10 +412,10 @@ units: 60m
 price: US2000$500
 cpu: AMD Zen 2
 cpu_cores: 8
-cpu_speed: 3.5GHz
+cpu_freq: 3.5GHz
 ram: 16GB
 storage: 825GB
-display: 8K
+disp_res: 8K
 gpu_flops: 10.3TFLOPS
 mass: 3.9kg
 

@@ -136,7 +136,7 @@ eol: 1977
 units: 20
 ram: 1MB
 ram_max: 4MB
-cpu_speed: 18MHz
+cpu_freq: 18MHz
 cpu_cores: 7
 
 manufacturer: Control Data Corp
@@ -150,8 +150,8 @@ mass: 1000kg
 size: 1760x2270x680mm
 power: 5.5kW
 cpu_bits: 48
-cpu_speed: 208kHz
-cpu_ips: 100k
+cpu_freq: 208kHz
+cpu_ops: 100k
 url: https://en.wikipedia.org/wiki/CDC_1604
 
 manufacturer: Control Data Corp
@@ -162,7 +162,7 @@ price: US1967$5m
 size: 1880x3020mm
 power: 95kW
 cpu_bits: 60
-cpu_ips: 15m
+cpu_ops: 15m
 cpu_flops: 36m
 ram: 3.84MB
 units: 75
@@ -174,7 +174,7 @@ type: embedded
 url: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
 released: 1966
 eol: 1975
-cpu_speed: 2.04MHz
+cpu_freq: 2.04MHz
 ram: 4KB
 rom: 74KB
 power: 55W

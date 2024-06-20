@@ -10,7 +10,7 @@ size: 1960x2630mm
 mass: 5500kg
 power: 115kW
 cpu_bits: 64
-cpu_speed: 80MHz
+cpu_freq: 80MHz
 cpu_flops: 160MFLOPS
 ram: 8.39MB
 storage: 303MB
@@ -27,10 +27,10 @@ mass: 5120kg
 size: 2.62x1.96m
 cpu_cores: 4
 cpu_bits: 64
-cpu_speed: 105MHz
+cpu_freq: 105MHz
 ram: 128MB
 storage: 38.4GB
-ips: 400MIPS
+cpu_ops: 400MIPS
 flops: 800MFLOPS
 url: https://en.wikipedia.org/wiki/Cray_X-MP
 
@@ -52,7 +52,7 @@ released: 1988
 mass: 635kg
 cpu_cores: 8
 cpu_bits: 32
-cpu_speed: 167MHz
+cpu_freq: 167MHz
 ram: 128MB
 ram_max: 512MB
 storage: 4GB
@@ -67,7 +67,7 @@ released: 1991
 mass: 635kg
 cpu_cores: 16
 cpu_bits: 32
-cpu_speed: 244MHz
+cpu_freq: 244MHz
 ram: 1GB
 ram_max: 8GB
 storage: 4GB
@@ -83,7 +83,7 @@ mass: 9100kg
 cpu_cores: 32
 cpu_bits: 64
 cpu_bandwidth: 360GBps
-cpu_speed: 450MHz
+cpu_freq: 450MHz
 cpu_flops: 1.8GFLOPS
 ram: 8GB
 ram_max: 8GB
@@ -97,7 +97,7 @@ released: 2003
 cpu_cores: 64
 cpu_bits: 64
 cpu_bandwidth: 12GBps
-cpu_speed: 800MHz
+cpu_freq: 800MHz
 cpu_flops: 12.8GFLOPS
 ram: 16GB
 ram_max: 8GB
