@@ -269,7 +269,8 @@ released: 1970
 price: US1970$20000
 eol: 1997
 units: 600k
-ram: 4kB
+ram: 8kB
+ram_max: 4MB
 cpu_bits: 16
 cpu_freq: 1.25MHz
 url: https://en.wikipedia.org/wiki/PDP-11

@@ -8,10 +8,156 @@ released: 1995
 url: https://en.wikipedia.org/wiki/Dell_OptiPlex
 
 manufacturer: IBM
-model: PC 5150
+model: IBM 5150
 type: PC
+product: IBM PC
+released: 1981-08-12
+price: US1981$1565
+eol: 1987-04-02
+ram: 16kB
+ram_max: 256kB
+cpu: Intel 8088
+cpu_freq: 4.77MHz
+audio_bits: 1
+storage: 320kB
+storage_type: 5.25 FDD
+mass: 11kg
 url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
-released: 1981
+
+manufacturer: IBM
+model: IBM PC/XT
+type: PC
+product: IBM PC
+released: 1983-03-08
+price: US1981$2270
+eol: 1987-04
+ram: 128kB
+ram_max: 640kB
+cpu: Intel 8088
+cpu_freq: 4.77MHz
+audio_bits: 1
+storage: 10MB
+storage_max: 20MB
+storage_type: HDD
+mass: 15kg
+url: https://en.wikipedia.org/wiki/IBM_Personal_Computer_XT
+
+manufacturer: IBM
+model: IBM PC/AT
+type: PC
+product: IBM PC
+released: 1984-08-14
+price: US1984$6000
+units: 100k
+eol: 1987-04-02
+ram: 256kB
+ram_max: 4MB
+cpu: Intel 80286
+cpu_freq: 8MHz
+storage: 20MB
+storage_max: 20MB
+storage_type: HDD
+mass: 15kg
+url: https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT
+
+manufacturer: IBM
+model: IBM PS/2 Model 30
+type: PC
+released: 1987-04
+price: US1987$2295
+ram: 640kB
+ram_max: 640kB
+cpu: Intel 8086
+cpu_freq: 8MHz
+storage: 20MB
+storage_max: 40MB
+storage_type: HDD
+mass: 15.7kg
+url: https://en.wikipedia.org/wiki/IBM_PS/2_Model_30
+
+manufacturer: IBM
+model: IBM PS/2 Model 50
+type: PC
+product: IBM PC
+released: 1987-04
+ram: 1MB
+ram_max: 1MB
+cpu: Intel 80286
+cpu_freq: 10MHz
+storage: 20MB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
+
+manufacturer: IBM
+model: IBM PS/2 Model 80
+type: PC
+product: IBM PC
+released: 1987-08
+ram: 2MB
+ram_max: 8MB
+cpu: Intel 80386
+cpu_freq: 20MHz
+storage: 44MB
+storage_max: 320MB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
+
+manufacturer: IBM
+model: IBM PS/2 Model 55 SX
+type: PC
+product: IBM PC
+released: 1989-05
+ram: 2MB
+ram_max: 8MB
+cpu: Intel 80386SX
+cpu_freq: 16MHz
+storage: 30MB
+storage_max: 60MB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
+
+manufacturer: IBM
+model: IBM PS/2 Model 70 486
+type: PC
+product: IBM PC
+released: 1989-09
+ram: 2MB
+ram_max: 8MB
+cpu: Intel 80486
+cpu_freq: 25MHz
+storage: 60MB
+storage_max: 120MB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
+
+manufacturer: IBM
+model: IBM PS/2 Model 95 XP 486
+type: PC
+product: IBM PC
+released: 1990-10
+ram: 8MB
+ram_max: 64MB
+cpu: Intel 80486DX2
+cpu_freq: 50MHz
+storage: 104MB
+storage_max: 1GB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
+
+manufacturer: IBM
+model: IBM PS/2 Server 295
+type: PC
+product: IBM PC
+product: IBM PC
+released: 1992-06
+ram: 32MB
+ram_max: 128MB
+cpu: Intel 80486
+cpu_freq: 50MHz
+storage: 400MB
+storage_max: 1GB
+storage_type: HDD
+url: https://en.wikipedia.org/wiki/List_of_IBM_PS/2_models
 
 manufacturer: IBM
 model: PCjr

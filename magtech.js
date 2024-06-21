@@ -8,6 +8,7 @@ let visibleProducts = [
     "NASA",
     "PDP",
     "VAX",
+    "IBM PC",
     "Misc"
 ]
 
