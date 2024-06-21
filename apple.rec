@@ -2,38 +2,125 @@
 manufacturer: Apple
 model: Apple I
 type: PC
+url: https://en.wikipedia.org/wiki/Apple_I
+price: US1976$666
+released: 1976-04-11
+eol: 1977-09-30
+units: 200
+cpu: MOS 6502
+cpu_bits: 8
+cpu_freq: 1MHz
+ram: 4kB
+ram_max: 8kB
+rom: 256 bytes
+disp_res_char: 40x24
 
 manufacturer: Apple
 model: Apple II
 type: PC
+product: Apple II
+released: 1977-06
+eol: 1979-05
+price: US1977$1298
+cpu: MOS 6502
+cpu_bits: 8
+cpu_freq: 1.023MHz
+ram: 4KB
+ram_max: 48kB
+storage: 140kB
+storage_type: 5.25 FDD
+disp_res: 280x192x3
+audio_bits: 1
+url: https://en.wikipedia.org/wiki/Apple_I
 
 manufacturer: Apple
 model: Apple II+
+product: Apple II
 type: PC
+released: 1979-06
+eol: 1982-12
+price: US1979$1195
+cpu: MOS 6502
+cpu_bits: 8
+cpu_freq: 1.023MHz
+ram: 16kB
+ram_max: 64kB
+storage: 140kB
+disp_res: 280x192x3
+audio_bits: 1
+url: https://en.wikipedia.org/wiki/Apple_II_Plus
 
 manufacturer: Apple
 model: Apple IIe
+product: Apple II
 type: PC
+released: 1983-01
+price: US1983$1395
+eol: 1993-11-15
+cpu: MOS 6502
+cpu_freq: 1.023MHz
+cpu_bits: 8
+ram: 64kB
+ram_max: 1MB
+rom: 16kB
+disp_res: 560x192x4
+audio_bits: 1
+url: https://en.wikipedia.org/wiki/Apple_IIe
 
 manufacturer: Apple
 model: Apple IIc
+product: Apple II
 type: PC
-
-manufacturer: Apple
-model: Apple IIe Enhanced
-type: PC
+released: 1984-04-24
+price: US1984$1295
+eol: 1988-08
+units: 400k
+cpu: MOS 6502
+cpu_freq: 1.023MHz
+cpu_bits: 8
+ram: 128kB
+ram_max: 1.125MB
+rom: 32kB
+mass: 3.4k
+storage: 140kB
+disp_res: 560x192x4
+audio_bits: 1
+url: https://en.wikipedia.org/wiki/Apple_IIe
 
 manufacturer: Apple
 model: Apple IIGS
+product: Apple II
 type: PC
+released: 1986-09-15
+price: US1986$999
+eol: 1992-12
+cpu: 65C816
+cpu_bits: 16
+cpu_freq: 2.8MHz
+ram: 256kB
+ram_max: 1MB
+disp_res: 640x200x12
+audio_bits: 8
+audio_channels: 32
+url: https://en.wikipedia.org/wiki/Apple_IIGS
 
 manufacturer: Apple
 model: Apple IIc+
+product: Apple II
 type: PC
-
-manufacturer: Apple
-model: Apple IIGS (1MB, ROM 3)
-type: PC
+released: 1988-09-16
+price: US1988$675
+eol: 1990-11
+cpu: 65C02
+cpu_freq: 4MHz
+cpu_bits: 8
+ram: 128kB
+ram_max: 1.125MB
+storage: 140kB
+storage_type: 3.5 FDD
+disp_res: 560x192x4
+audio_bits: 1
+url: https://en.wikipedia.org/wiki/Apple_IIe
 
 manufacturer: Apple
 model: Macintosh 128k
@@ -322,48 +409,239 @@ cell_bandwidth: 3.6Mbps
 url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
 
 manufacturer: Apple
+model: iPhone 3GS
+type: mobile
+product: iPhone
+released: 2009-06-19
+eol: 2012-09-12
+size: 115x62.1x12.3mm
+mass: 135g
+cpu: ARM Cortex A-8
+cpu_bits: 32
+cpu_freq: 600 MHz
+gpu: PowerVR SGX535
+ram: 256MBMB
+storage: 8GB
+storage_type: flash
+storage_max: 32GB
+battery: 1220mAh
+disp_res: 480x320x24
+disp_type: LCD
+camera: 3MP
+wifi: 802.11b/g
+cell_bandwidth: 3.6Mbps
+url: https://en.wikipedia.org/wiki/IPhone_3GS
+
+manufacturer: Apple
 model: iPhone 4
 type: mobile
+product: iPhone
+released: 2010-06-24
+eol: 2013-09-10
+cpu: ARM Cortex-A8
+cpu_freq: 800MHz
+cpu_bits: 32
+mass: 137g
+battery: 1420mAh
+ram: 512MB
+storage: 8GB
+storage_max: 32GB
+camera: 5MP
+wifi: 802.11b/g/n
+url: https://en.wikipedia.org/wiki/IPhone_4
 
 manufacturer: Apple
 model: iPhone 5
 type: mobile
+product: iPhone
+released: 2012-09-21
+eol: 2013-09-10
+price: US2012$200
+ram: 1 GB
+cpu: ARMv7-A
+cpu_bits: 32
+cpu_speed: 1.3 GHz
+gpu_flops: 68GFLOPS
+storage: 16GB
+storage_max: 64GB
+battery: 1440 mAh
+disp_res: 1136x640
+camera: 8MP
+wifi: 802.11 a/b/g/n
+size: 123.8x58.6x7.6mm
+mass: 0.112g
+url: https://en.wikipedia.org/wiki/IPhone_5
 
 manufacturer: Apple
 model: iPhone 6
 type: mobile
+product: iPhone
+released: 2014-09-19
+eol: 2018-09-09
+units: 220m
+cpu_freq: 1.4GHz
+cpu_bits: 64
+gpu_flops: 136GFLOPS
+ram: 1GB
+storage: 16GB
+storage_max: 128GB
+battery: 1810mAh
+camera: 8MP
+url: https://en.wikipedia.org/wiki/IPhone_6
 
 manufacturer: Apple
 model: iPhone 7
 type: mobile
+product: iPhone
+released: 2016-09-16
+eol: 2019-09-10
+cpu_freq: 2.34GHz
+cpu_bits: 64
+ram: 2GB
+ram_max: 3GB
+storage: 32GB
+storage_max: 256GB
+battery: 1960mAh
+camera: 12MP
+url: https://en.wikipedia.org/wiki/IPhone_7
 
 manufacturer: Apple
 model: iPhone 8
 type: mobile
+product: iPhone
+released: 2017-09-22
+eol: 2020-04-15
+cpu_freq: 2.39GHz
+cpu_cores: 6
+cpu_bits: 64
+gpu_flops: 409GFLOPS
+ram: 2GB
+ram_max: 3GB
+storage: 64GB
+storage_max: 256GB
+battery: 1821mAh
+camera: 12MP
+url: https://en.wikipedia.org/wiki/IPhone_8
 
 manufacturer: Apple
-model: iPhone 9
+model: iPhone X
 type: mobile
-
-manufacturer: Apple
-model: iPhone 10
-type: mobile
+product: iPhone
+released: 2017-11-03
+eol: 2018-11-12
+price: US2018$1000
+mass: 0.174kg
+size: 143.6x70.9x7.7mm
+cpu_cores: 6
+cpu_bits: 64
+cpu_freq: 2.39GHz
+gpu_flops: 409GFLOPS
+ram: 3GB
+storage: 64GB
+storage_max: 256GB
+storage_type: NVMe
+battery: 2716mAh
+disp_res: 2436x1125
+disp_type: AMOLED
+camera: 12MP
+wifi: 802.11a/b/g/n/ac
+url: https://en.wikipedia.org/wiki/IPhone_X
 
 manufacturer: Apple
 model: iPhone 11
 type: mobile
+product: iPhone
+released: 2019-09-20
+eol: 2022-09-07
+price: US2018$1000
+mass: 0.194kg
+units: 159.2m
+size: 150.9x75.7x8.3mm
+cpu_cores: 6
+cpu_bits: 64
+cpu_freq: 2.66GHz
+gpu_cores: 4
+gpu_flops: 690GFLOPS
+ram: 4GB
+storage: 64GB
+storage_max: 256GB
+battery: 3110mAh
+disp_res: 1792x828px
+disp_type: IPS LCD
+camera: 12MP
+wifi: 802.11ax
+url: https://en.wikipedia.org/wiki/IPhone_11
 
 manufacturer: Apple
 model: iPhone 12
 type: mobile
+product: iPhone
+released: 2020-10-23
+eol: 2023-09-12
+price: US2020$800
+mass: 0.162kg
+units: 159.2m
+size: 146.7x71.5x7.4mm
+cpu_cores: 6
+cpu_bits: 64
+cpu_freq: 3.1GHz
+gpu_cores: 4
+gpu_flops: 750GFLOPS
+ram: 4GB
+storage: 64GB
+storage_max: 256GB
+battery: 2815mAh
+disp_res: 1792x828px
+disp_type: XDR OLED
+camera: 12MP
+wifi: 802.11ax
+url: https://en.wikipedia.org/wiki/IPhone_12
 
 manufacturer: Apple
 model: iPhone 13
 type: mobile
+product: iPhone
+released: 2021-09-24
+price: US2021$799
+mass: 0.173kg
+size: 146.7x71.5x7.65mm
+cpu_cores: 6
+cpu_bits: 64
+cpu_freq: 3.23GHz
+gpu_cores: 4
+gpu_flops: 1.37TFLOPS
+ram: 4GB
+storage: 128GB
+storage_max: 512GB
+battery: 3227mAh
+disp_res: 2532x1170px
+disp_type: XDR OLED
+camera: 12MP
+wifi: 802.11ax
+url: https://en.wikipedia.org/wiki/IPhone_13
 
 manufacturer: Apple
 model: iPhone 14
 type: mobile
+product: iPhone
+released: 2022-09-16
+price: US2022$799
+mass: 0.172kg
+size: 146.7x71.5x7.8mm
+cpu_cores: 6
+cpu_bits: 64
+cpu_freq: 3.23GHz
+gpu_cores: 5
+gpu_flops: 1.713TFLOPS
+ram: 6GB
+storage: 128GB
+storage_max: 512GB
+battery: 3279mAh
+disp_res: 2532x1170px
+disp_type: XDR OLED
+camera: 12MP
+wifi: 802.11ax
+url: https://en.wikipedia.org/wiki/IPhone_14
 
 manufacturer: Apple
 model: iPhone 15

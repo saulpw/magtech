@@ -1,3 +1,16 @@
+let visibleProducts = [
+    "iPhone",
+    "PlayStation",
+    "Apple II",
+    "Cray",
+    "Nintendo",
+    "Nintendo handheld",
+    "NASA",
+    "PDP",
+    "VAX",
+    "Misc"
+]
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('/computers.json')
         .then(response => response.json())
@@ -16,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     x1: '2100',
                     y0: 0.5*Math.pow(10, i),
                     y1: 3*Math.pow(10, i),
-                    fillcolor: 'rgba(0, 0, 70, 0.05)',
+                    fillcolor: 'rgba(0, 0, 70, 0.15)',
                     line: {
                         width: 0  // no border
                     },
@@ -28,8 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
             var traces = []
             var productlines = {};
 
-            data = data.filter(p => p.released && p.ram);
-            data.sort((a,b) => a.released.localeCompare(b.released));
+            data = data.filter(p => p.released && p.ram && visibleProducts.includes(p.product));
+            data.sort((a,b) => b.released-a.released) //.released.localeCompare(b.released));
             for (var p of data) {
                 if (!p.product) {
                     continue;
@@ -40,52 +53,61 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 productlines[pl].push(p);
             }
+
+            traces.push({
+                name: "Lifetime",
+                x: data.map(p => p.released),
+                y: data.map(p => p.ram),
+                error_x: {
+                    type: 'data',
+                    symmetric: false,
+                    array: data.map(p => p.eol - p.released),
+                    color: 'hsla(200, 100%, 50%, 0.25)'
+                },
+                mode: 'markers',
+                type: 'scatter',
+                visible: false
+            })
+
+            traces.push({
+                name: "RAM range",
+                x: data.map(p => p.released),
+                y: data.map(p => p.ram),
+                error_y: {
+                    type: 'data',
+                    symmetric: false,
+                    array: data.map(p => p.ram_max - p.ram),
+                    color: 'hsla(100, 100%, 50%, 0.25)'
+                },
+                mode: 'markers',
+                type: 'scatter',
+                visible: false
+            })
+
             for (var pl in productlines) {
               var rows = productlines[pl];
               traces.push({
-                name: pl+" RAM",
+                name: pl,
                 x: rows.map(p => p.released),
                 y: rows.map(p => p.ram),
                 mode: 'markers+lines',
                 type: 'scatter',
-                hoverinfo: 'text'
+                hoverinfo: 'text',
+                hovertemplate: "%{text}",
+                marker: {
+                    size: rows.map(p => p.units ? Math.max(4, Math.log10(p.units)) : 4),
+                },
+                text: rows.map(p => p.model) // hover text
               })
             }
 
-            traces.push({
-                name: "RAM",
-                x: data.map(p => p.released),
-                y: data.map(p => p.ram),
-                mode: 'markers',
-                type: 'scatter',
-                transforms: [{
-                    type: 'groupby',
-                    groups: data.map(p => p.type),
-                    styles: [
-                        {target: 'PC', value: {marker: {color: 'green'}}},
-                        {target: 'mainframe', value: {marker: {color: 'maroon'}}},
-                        {target: 'supercomputer', value: {marker: {color: 'red'}}},
-                        {target: 'console', value: {marker: {color: 'blue'}}},
-                        {target: 'mobile', value: {marker: {color: 'teal'}}},
-                        {target: 'server', value: {marker: {color: 'lime'}}},
-                        {target: 'embedded', value: {marker: {color: 'black'}}},
-                    ]
-                }],
-                marker: {
-                    size: data.map(p => p.units ? Math.max(4, Math.log10(p.units)) : 4),
-                },
-                hoverinfo: "text",
-                hovertemplate: "%{text}",
-                text: data.map(p => p.model) // hover text
-            })
 
             var layout = {
                 title: 'Magnitude',
                 margin: { t: 0 },
                 xaxis: {
                     title: 'Year',
-                    range: ['1940', '2025'],
-                    type: 'date'
+                    range: ['1960', '2025'],
                 }, 
                 yaxis: {
                     title: "RAM",

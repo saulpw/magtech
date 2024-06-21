@@ -71,7 +71,7 @@ model: Virtual Boy
 type: console
 manufacturer: Nintendo
 
-model: Nintendo 64
+model: N64
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -104,7 +104,7 @@ cpu_bits: 32
 ram: 24 MB
 price: US2001$199
 
-model: Nintendo Wii
+model: Wii
 type: console
 manufacturer: Nintendo
 product: Nintendo
@@ -123,19 +123,44 @@ gpu_speed: 243MHz
 wifi: 802.11b/g
 size: 157x60x197mm
 mass: 1.22kg
+url: https://en.wikipedia.org/wiki/Wii
+
+model: Wii U
+type: console
+manufacturer: Nintendo
+product: Nintendo
+released: 2012-11-18
+price: US2012$299
+units: 13.56m
+ram: 2GB
+storage: 8GB
+storage_max: 32GB
+storage_type: NAND flash
+cpu: IBM PowerPC Espresso
+cpu_bits: 32
+cpu_process: 45nm
+cpu_freq: 1.24MHz
+gpu: AMD Radeon-based Latte
+gpu_speed: 550MHz
+wifi: 802.11b/g
+camera: 1.3MP
+size: 157x60x197mm
+power: 75W
+mass: 1.5kg
+url: https://en.wikipedia.org/wiki/Wii_U
 
 model: Nintendo Switch
 type: console
 manufacturer: Nintendo
 product: Nintendo
-url: https://en.wikipedia.org/wiki/Nintendo_Switch
 units: 141.32m
 price: US2017$300
 released: 2017
-cpu:  ARM 4 Cortex-A57 cores
+cpu: ARM 4 Cortex-A57 cores
 cpu_freq: 1.02 GHz
 ram: 4 GB
 cpu_bits: 64
+url: https://en.wikipedia.org/wiki/Nintendo_Switch
 
 model: Game Boy
 type: console
@@ -150,31 +175,53 @@ cpu_freq: 4MHz
 ram: 16KB
 cpu_ram: 8KB
 gpu_ram: 8KB
+battery_life: 30h
 url: https://en.wikipedia.org/wiki/Game_Boy
-
-model: Game Boy Pocket
-type: console
-manufacturer: Nintendo
-
-model: Game Boy Light
-type: console
-manufacturer: Nintendo
 
 model: Game Boy Color
 type: console
 manufacturer: Nintendo
+product: Nintendo handheld
+released: 1998-10-21
+price: US1998$80
+eol: 2003-03-31
+units: 118.7m
+cpu: Sharp SM83
+cpu_freq: 8MHz
+ram: 48KB
+gpu_ram: 16KB
+disp_res: 160x144x15
+disp_type: TFT color LCD
+disp_rate: 60Hz
+battery: 75mAh
+battery_life: 10h
+power: 0.6W
+audio_channels: 4
+size: 133.5x78x27.4mm
+mass: 138g
+url: https://en.wikipedia.org/wiki/Game_Boy
 
 model: Game Boy Advance
 type: console
 manufacturer: Nintendo
-
-model: Pokemon Mini
-type: console
-manufacturer: Nintendo
-
-model: Game Boy Advance SP
-type: console
-manufacturer: Nintendo
+product: Nintendo handheld
+released: 2001-03-21
+units: 81.51m
+price: US2001$100
+ram: 386KB
+gpu_ram: 98KB
+cpu: ARM7TDMI
+cpu_bits: 32
+cpu_freq: 16.78MHz
+disp_res: 240x160x8
+disp_rate: 60Hz
+disp_type: TFT color LCD
+battery_life: 15h
+audio_bits: 8
+audio_channels: 2
+mass: 0.14kg
+size: 82x145x24mm
+url: https://en.wikipedia.org/wiki/Game_Boy_Advance
 
 model: Nintendo DS
 type: console
@@ -189,6 +236,22 @@ cpu: ARM946E-S
 cpu_freq: 67 MHz
 cpu_bits: 32
 url: https://en.wikipedia.org/wiki/Nintendo_DS
+
+model: Nintendo DSi
+type: console
+manufacturer: Nintendo
+product: Nintendo handheld
+released: 2008-11-01
+price: US2004$150
+ram: 16 MB
+units: 41m
+disp_res: 256x192px
+cpu: ARM946E-S
+cpu_freq: 133 MHz
+cpu_bits: 32
+storage: 256MB
+wifi: 802.11b/g
+url: https://en.wikipedia.org/wiki/Nintendo_DSi
 
 model: Game Boy Micro
 type: console

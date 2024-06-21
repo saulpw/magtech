@@ -168,9 +168,169 @@ ram: 3.84MB
 units: 75
 url: https://en.wikipedia.org/wiki/CDC_7600
 
+manufacturer: DEC
+model: PDP-1
+type: minicomputer
+product: PDP
+units: 53
+released: 1959
+eol: 1969
+price: US1959$120000
+ram: 9.2KB
+cpu_bits: 18
+cpu_freq: 187kHz
+mass: 730kg
+url: https://en.wikipedia.org/wiki/PDP-1
+
+manufacturer: DEC
+model: PDP-4
+type: minicomputer
+product: PDP
+units: 54
+released: 1962
+price: US1962$65000
+ram: 9.2KB
+ram_max: 72kB
+cpu_bits: 18
+mass: 490kg
+url: https://en.wikipedia.org/wiki/PDP-4
+url: http://archive.computerhistory.org/resources/text/DEC/pdp-4/DEC.PDP4.1963.102646216.pdf
+
+manufacturer: DEC
+model: PDP-5
+type: minicomputer
+product: PDP
+units: 1k
+released: 1963
+price: US1963$27000
+ram: 1536
+ram_max: 48kB
+cpu_bits: 12
+mass: 240kg
+url: https://en.wikipedia.org/wiki/PDP-5
+
+manufacturer: DEC
+model: PDP-7
+type: minicomputer
+product: PDP
+units: 120
+released: 1965
+price: US1965$72000
+ram: 9kB
+ram_max: 144kB
+cpu_bits: 18
+cpu_freq: 0.57MHz
+cpu_ops: 250k
+mass: 500kg
+url: https://en.wikipedia.org/wiki/PDP-7
+
+manufacturer: DEC
+model: PDP-8
+type: minicomputer
+product: PDP
+units: 50k
+released: 1965-03-22
+price: US1965$18500
+ram: 6kB
+ram_max: 32kB
+cpu_bits: 12
+cpu_freq: 0.667MHz
+cpu_ops: 333k
+url: https://en.wikipedia.org/wiki/PDP-8
+url: https://retrocomputing.stackexchange.com/questions/5911/size-of-the-pdp-8
+
+manufacturer: DEC
+model: PDP-9
+type: minicomputer
+product: PDP
+units: 445
+mass: 340kg
+released: 1966
+cpu_bits: 18
+url: https://en.wikipedia.org/wiki/PDP-9
+
+manufacturer: DEC
+model: PDP-12
+type: minicomputer
+product: PDP
+released: 1969
+eol: 1972
+units: 725
+ram: 6kB
+ram_max: 48kB
+cpu_bits: 12
+url: https://en.wikipedia.org/wiki/PDP-12
+
+manufacturer: DEC
+model: PDP-11
+type: minicomputer
+product: PDP
+released: 1970
+price: US1970$20000
+eol: 1997
+units: 600k
+ram: 4kB
+cpu_bits: 16
+cpu_freq: 1.25MHz
+url: https://en.wikipedia.org/wiki/PDP-11
+
+manufacturer: DEC
+model: PDP-15
+type: minicomputer
+product: PDP
+released: 1970-02
+eol: 1979
+units: 400
+ram: 8kB
+ram_max: 54kB
+cpu_bits: 18
+url: https://en.wikipedia.org/wiki/PDP-15
+
+manufacturer: DEC
+model: VAX-11/780
+type: minicomputer
+product: VAX
+released: 1977-10
+eol: 1988
+ram: 256kB
+ram_max: 64MB
+cpu_bits: 32
+cpu_freq: 5MHz
+cpu_ops: 1MIPS
+url: https://en.wikipedia.org/wiki/VAX-11
+url: http://gunkies.org/wiki/VAX-11/780
+notes: 1 VUPs ~= 1 MIPS
+
+manufacturer: DEC
+model: VAX 8600
+type: minicomputer
+product: VAX
+released: 1984-10
+ram: 4MB
+ram_max: 32MB
+cpu_bits: 32
+cpu_freq: 12.5MHz
+cpu_ops: 1.8MIPS
+url: https://en.wikipedia.org/wiki/VAX-11
+
+manufacturer: DEC
+model: VAX-11/785
+type: minicomputer
+product: VAX
+released: 1984-04
+eol: 1988
+ram: 8MB
+ram_max: 8MB
+cpu: KA785
+cpu_bits: 32
+cpu_freq: 7.52MHz
+cpu_ops: 1.5MIPS
+url: https://en.wikipedia.org/wiki/VAX-11
+
 manufacturer: Raytheon
 model: Apollo Guidance Computer
 type: embedded
+product: NASA
 url: https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
 released: 1966
 eol: 1975

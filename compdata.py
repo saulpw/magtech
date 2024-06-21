@@ -2,10 +2,11 @@
 
 import sys
 import json
+import datetime
 import re
 
 def clean(row):
-    return {k:cleanval(v) for k, v in row.items()}
+    return {k:cleanval(k, v) for k, v in row.items()}
 
 factors = {
     'TB': 2**40,
@@ -18,9 +19,25 @@ factors = {
     'K': 10**3,
 }
 
-def cleanval(origv):
+def date2float(origv):
+    assert origv.startswith(('19', '20'))
+    ymd = origv.split('-')
+    if len(ymd) == 1:
+        y, m, d = *ymd, 0, 0
+    elif len(ymd) == 2:
+        y, m, d = *ymd, 0
+    elif len(ymd) == 3:
+        y, m, d = ymd
+
+    return int(y) + (float(m)-1)/12
+
+
+def cleanval(k, origv):
     if not isinstance(origv, str):
         return origv
+
+    if k in ('released', 'eol'):
+        return date2float(origv)
 
     v = origv
     try:

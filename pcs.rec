@@ -250,4 +250,12 @@ manufacturer: NeXT
 manufacturer: Altair
 model: Altair 8800
 type: PC
-released: 1975
+product: Misc
+released: 1975-01
+price: US1975$621
+units: 25k
+cpu: Intel 8080
+cpu_freq: 2MHz
+ram: 256
+ram_max: 8kB
+url: https://en.wikipedia.org/wiki/Altair_8800
