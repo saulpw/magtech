@@ -17,6 +17,11 @@ factors = {
     'B': 10**9,
     'M': 10**6,
     'K': 10**3,
+    'GFLOPS': 10**9,
+    'TFLOPS': 10**12,
+    'MFLOPS': 10**6,
+    'KFLOPS': 10**3,
+    'FLOPS': 1,
 }
 
 def date2float(origv):

@@ -341,3 +341,28 @@ rom: 74KB
 power: 55W
 size: .61x.32x.17m
 mass: 32kg
+
+manufacturer: JPL
+model: Curiosity
+type: embedded
+url: https://www.extremetech.com/extreme/134041-inside-nasas-curiosity-its-an-apple-airport-extreme-with-wheels
+released: 2012
+cpu: PowerPC 750
+cpu_freq: 200MHz
+ram: 256MB
+storage: 2GB
+camera: 2MP
+bandwidth: 6Mbps
+
+manufacturer: JPL
+model: Perseverance
+type: embedded
+url: https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/
+released: 2020
+cpu: PowerPC 750
+cpu_freq: 200MHz
+ram: 256MB
+rom: 256kB
+storage: 2GB
+camera: 2MP
+bandwidth: 6Mbps

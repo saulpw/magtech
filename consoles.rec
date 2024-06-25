@@ -541,3 +541,20 @@ manufacturer: Philips Magnavox
 model: CD-i
 type: console
 manufacturer: Philips Magnavox
+
+model: Playdate
+manufacturer: Panic
+released: 2022-04-19
+product: Misc
+price: US2022$199
+units: 70k
+cpu: STM32F746 (ARM Cortex-M7F)
+cpu_freq: 180MHz
+ram: 16MB
+storage: 4GB
+disp_res: 400x240x1
+disp_type: LCD
+wifi: 802.11b/g/n
+size: 76x74x9mm
+mass: 86g
+url: https://en.wikipedia.org/wiki/Playdate_(console)

@@ -1,0 +1,9 @@
+
+manufacturer: NVidia
+model: A100
+ram: 80GB
+flops_min: 9.7 TFLOPS
+flops_max: 624 TFLOPS
+cpu_ops: 1248 TOPS
+power: l00W
+url: https://www.nvidia.com/en-us/data-center/a100/

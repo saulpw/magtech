@@ -148,7 +148,6 @@ manufacturer: IBM
 model: IBM PS/2 Server 295
 type: PC
 product: IBM PC
-product: IBM PC
 released: 1992-06
 ram: 32MB
 ram_max: 128MB
@@ -396,7 +395,6 @@ manufacturer: NeXT
 manufacturer: Altair
 model: Altair 8800
 type: PC
-product: Misc
 released: 1975-01
 price: US1975$621
 units: 25k
